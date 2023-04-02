@@ -1,0 +1,136 @@
+/*------------------------------info---------------------------------*/
+.headblock-background__main {
+  height: 400px;
+}
+
+.Title__main {
+  z-index: 15;
+  margin-top: 150px;
+  position: absolute;
+  width: 99%;
+}
+
+.Title__main h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+.background-head-image {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.information-block__main {
+  max-width: 1080px;
+  margin: 150px auto;
+  padding: 50px 0 50px 0;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Infoblock-menu__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+}
+
+.infoblock__menu li {
+  padding: 5px;
+  width: 150px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  text-align: center;
+  word-break: break-all;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.infoblock__menu li:not(:first-child) {
+  margin-top: 25px;
+}
+
+.infoblock__menu li:hover {
+  background: rgba(156, 0, 0, 0.8);
+  border-radius: 5px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.Infoblock-block__container {
+  width: 60%;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: inset 0px 0px 40px black;
+          box-shadow: inset 0px 0px 40px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 30px;
+}
+
+.Infoblock-block__text {
+  word-break: break-all;
+  line-height: calc(40 / 30 * 100%);
+}
+
+input[name="text-buttom"] {
+  visibility: hidden;
+  position: absolute;
+}
+
+.text1, .text2, .text3, .text4, .text5 {
+  position: absolute;
+  visibility: hidden;
+}
+
+#check1:checked ~ .text1 {
+  position: relative;
+  visibility: visible;
+  word-break: break-word;
+}
+
+#check2:checked ~ .text2 {
+  position: relative;
+  visibility: visible;
+  word-break: break-word;
+}
+
+#check3:checked ~ .text3 {
+  position: relative;
+  visibility: visible;
+  word-break: break-word;
+}
+
+#check4:checked ~ .text4 {
+  position: relative;
+  visibility: visible;
+  word-break: break-word;
+}
+
+#check5:checked ~ .text5 {
+  position: relative;
+  visibility: visible;
+  word-break: break-word;
+}
+
+.buttom_menu {
+  width: 50px;
+  height: 25px;
+}
+/*# sourceMappingURL=services.css.map */

@@ -1,0 +1,68 @@
+/*--------------------------Page------------------------------*/
+.page {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.Rent-block__container {
+  background-color: rgba(82, 82, 82, 0.88);
+  max-width: 1080px;
+  margin: 0 auto;
+  color: white;
+}
+
+.Rent-block__col50 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px;
+}
+
+.Rent-block__container h4 {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Rent-block__col {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Rent-block__col label {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.Rent-block__col label:not(:first-child) {
+  padding-top: 25px;
+}
+
+.Rent-block__col input[type=text], input[type=date] {
+  width: 50%;
+  padding: 12px;
+}
+
+.Rent-block__col input[type=checkbox] {
+  margin-bottom: 12px;
+}
+
+.Rent-block__button {
+  display: block;
+  padding: 25px;
+}
+
+.button__ckeckout {
+  display: block;
+  width: 30%;
+  height: 50px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=rent.css.map */

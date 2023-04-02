@@ -1,0 +1,134 @@
+//обнуление
+*,*::before,::afret {
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,ol,li {
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,body{
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    font-family: Montserrat;
+    background-image: url("images/Фото-на-рабочий-стол-черное-необычное-13.jpg");
+
+}
+/*-----------------------------------------------------------*/
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+/*-----------------------------------------------------------*/
+._container {
+    max-width: 1080px;
+    padding: 0 15px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+._ibg{
+    position:relative;
+}
+._ibg img{
+    position:absoute;
+    width: 100%;
+    height: 87%;
+    max-height: 1080px;
+    top:0;
+    left:0;
+    object-fit: cover;
+}
+/*---------------------------Шапка--------------------------*/
+.header{
+    position: fixed;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.75);
+    border-bottom: 2px rgba(38, 38, 38, 0.88) solid;
+}
+.header__container{
+    display: flex;
+    min-height: 86px;
+    align-items: center;
+}
+
+.header__logo{
+    font-size: 50px;
+    font-weight: 700;
+    color: inherit; //наследование цвета
+}
+.header__menu {
+    margin: 0px 0px 0px 120px;
+}
+
+.menu{
+    padding: 5px 0;
+}
+.menu__list{
+    display:flex;
+    flex-wrap: wrap; // при сужении ширины сдвигаются друг под друга
+}
+.menu__item{
+    
+}
+.menu__item:not(:last-child){
+    margin: 0px 21px 0px 0px;
+}
+.menu__link{
+    color: inherit;
+    font-size: 20px;
+    font-weight:500;
+    line-height: calc(40 / 30 * 100%);
+}
+
+/*--------------------------Page------------------------------*/
+.page{
+    flex: 1 1 auto;/* Три значения: flex-grow | flex-shrink | flex-basis */
+    box-sizing:content-box;/*ширина границ и внутренних отступов при рендере будет добавлена к финальной ширине*/
+}
+/*--------------------подвал-------------------------------*/
+.footer-block{
+    flex: 1 1 auto;
+    box-sizing:content-box;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.footer-block__body{
+    display: flex;
+    margin: 32px auto;
+    width:100%;
+    position: relative;
+    flex-wrap: wrap;
+}
+.footer-info-block{
+    margin:auto;
+    position: relative;
+}
+.footer-info-block a:visited{
+    color:white;
+}
+.footer-info-block a{
+    color:white;
+}

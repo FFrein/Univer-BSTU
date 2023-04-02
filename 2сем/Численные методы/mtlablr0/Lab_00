@@ -1,0 +1,343 @@
+%создание и инициализация переменных 
+a = 5
+
+a =
+
+     5
+
+b = 15
+
+b =
+
+    15
+
+%при использовании ';' значение не будет отображаться 
+c = 20;
+%возможно не указывать название переменной 
+2+3
+
+ans =
+
+     5
+
+%простейшие арифметические операции 
+c = a+b
+
+c =
+
+    20
+
+c = a * b
+
+c =
+
+    75
+
+c = b/a
+
+c =
+
+     3
+
+c = a^2 * b
+
+c =
+
+   375
+
+c = a^5 - b
+
+c =
+
+        3110
+
+%"специальные" значения
+pi
+
+ans =
+
+    3.1416
+
+inf
+
+ans =
+
+   Inf
+
+%создание одномерных и двумерных(матриц) массивов 
+%массив в интервале от 1 до 60
+arr = 1:60
+
+arr =
+
+  Columns 1 through 20
+
+     1     2     3     4     5     6     7     8     9    10    11    12    13    14    15    16    17    18    19    20
+
+  Columns 21 through 40
+
+    21    22    23    24    25    26    27    28    29    30    31    32    33    34    35    36    37    38    39    40
+
+  Columns 41 through 60
+
+    41    42    43    44    45    46    47    48    49    50    51    52    53    54    55    56    57    58    59    60
+
+%массив в интервале от 1 до 60 с шагом в 5 единиц 
+
+arr_two = 1:5:60
+
+arr_two =
+
+     1     6    11    16    21    26    31    36    41    46    51    56
+
+time = [1 2 3; 4  5 6; 7 8 9]
+
+time =
+
+     1     2     3
+     4     5     6
+     7     8     9
+
+%обращение к элементам массива 
+arr(5)
+
+ans =
+
+     5
+
+time(4)
+
+ans =
+
+     2
+
+time(1,3)
+
+ans =
+
+     3
+
+time(2,2) = 15
+
+time =
+
+     1     2     3
+     4    15     6
+     7     8     9
+
+%транспонирование матрицы
+time'
+
+ans =
+
+     1     4     7
+     2    15     8
+     3     6     9
+
+%почленные операции с массиво
+%* с массивами 
+arr_a=[1 2 3]
+
+arr_a =
+
+     1     2     3
+
+arr_b=4 10 18
+ arr_b=4 10 18
+         ↑
+{Error: Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of parentheses.
+} 
+arr_b=[4 10 18]
+
+arr_b =
+
+     4    10    18
+
+a.*b
+
+ans =
+
+    75
+
+%для операций + и - точка не обязательна 
+%умножение вектора-столбца на вектор-строку
+arr_b=[1;2;3]
+
+arr_b =
+
+     1
+     2
+     3
+
+arr_a*arr_b
+
+ans =
+
+    14
+
+%перемножение согласованных матриц 
+time_2=[1 2 3; 1 2 3; 1 2 3]
+
+time_2 =
+
+     1     2     3
+     1     2     3
+     1     2     3
+
+time * time_2
+
+ans =
+
+     6    12    18
+    25    50    75
+    24    48    72
+
+%clc - отчистка консольного окна
+%edit - вызов окна со скриптами
+%help - вызов помощи(докуменитации)
+%clear - удаление переменных (можно указать конкретно каких)
+%Логические операции
+a==b
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+a~=b
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+a^2>=b
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+a-5>=f
+{Unrecognized function or variable 'f'.
+} 
+a-5>=c
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+%использование стандартных функций 
+y = abs(-5)
+
+y =
+
+     5
+
+y = sqrt(9)
+
+y =
+
+     3
+
+y = exp(5)
+
+y =
+
+  148.4132
+
+y = sin(45)
+
+y =
+
+    0.8509
+
+y = cos(45).*sin(0)
+
+y =
+
+     0
+
+y = asin(45)
+
+y =
+
+   1.5708 - 4.4997i
+
+y = asin(0)
+
+y =
+
+     0
+
+%использование скриптов
+
+%условные операторы
+edit
+uslovni_operator
+
+f =
+
+     8
+
+Попадание!
+%цикл while
+edit
+tsikl_while
+
+s =
+
+     0
+
+
+i =
+
+     1
+
+   210
+
+%цикл for
+edit
+tsikl_for
+    20
+
+%break - прерывает выполнение цикла
+%continue - переходит к следующей итерации цикла 
+%return - возвращает значения 
+%switch - case 
+edit
+switch_and_case
+
+p =
+
+    3.1400
+
+Chislo Pi
+%try-catch
+edit
+try_and_catch
+
+a =
+
+    15
+
+%создание функций 
+edit
+Function_fun
+     3     5     7
+
+%использование input 
+x = input('Enter num')
+Enter num 15
+
+x =
+
+    15
+
+diary off

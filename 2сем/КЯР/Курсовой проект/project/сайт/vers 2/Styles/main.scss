@@ -1,0 +1,150 @@
+/*--------------------------Main------------------------------*/
+@mixin MixOne {
+    margin: 0 auto;
+}
+
+.main{
+    flex: 1 1 auto;
+}
+.main-block{
+    height:900px; 
+}
+.main-block__body{
+    padding: 162px 0px 0px 0px;
+    position: relative;
+    z-index: 2;
+    max-width:415px;
+}
+.main-block__title{
+    color: #A60000;
+    line-height: calc(78 / 64 * 100%);
+    font-weight: 800;
+    font-size: 64px;
+}
+.main-block__text{
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 44px;
+    padding-top: 81px;
+}
+.main-block__image{
+    position: absolute;
+    height: 1080px;
+    //косяк
+    top:0;
+    left:0;
+    transform: translate();
+}
+.info-block{
+    margin: 128px 0 0 0;
+    padding: 3px 0 50px 0;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 1);
+}
+.info-block_title {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #990000;
+}
+.info-block__body{
+    padding: 3px 0 50px 0;
+    position: relative;
+    z-index: 2;
+}
+.history_img{
+    width: 50%;
+    margin: 8px 45px 37px 0;
+    float:left;
+}
+.history-block__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*--------------------слайдер-----------------------------*/
+.gallery-block-slider__content{
+    padding-bottom: 25px;
+}
+.gallery-block__content{
+    width: 90%;
+    height: 600px;
+    @include MixOne;
+    overflow: hidden; // всё что выходит за рамки скрывается
+    border: 5px solid rgba(38, 38, 38, 0.88);
+    border-radius: 5px;
+    padding-bottom: 20px;
+    background-color: rgba(38, 38, 38, 0.7);
+}
+.navigation{
+    justify-content: center;
+    display: flex;
+}
+.bar{
+    height: 8px;
+    width: 30px;
+    margin: 5px;
+    background-color: rgba(38, 38, 38, 1);
+    border-radius: 5px;
+    transition: all .4s ease;
+}
+.bar:hover{
+    background-color: rgba(131, 0, 0, 0.7);
+    transform: scale(1.1);
+}
+
+.gallery-block__slider {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slide{
+    width: 25%;
+    transition: all .6s ease;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+input[name="slide-buttom"]{    
+    position: absolute; 
+    visibility: hidden;
+}
+#slbt1:checked ~ .s1 {
+    margin-left:0%;
+}
+#slbt2:checked ~ .s1{
+    margin-left:-25%;
+}
+#slbt3:checked ~ .s1 {
+    margin-left:-50%;
+}
+#slbt4:checked ~ .s1 {
+    margin-left:-75%;
+}
+/*--------------------карта-------------------------------*/
+.googlemap-block__content{
+    @include MixOne;
+    position: relative;
+    height:600px;
+    width: 80%;
+    
+}
+.googlemap-block__content iframe{
+    @include MixOne;
+    width:100%;
+    height:100%;
+    border-radius: 25px;
+    border:5px solid rgba(38, 38, 38, 0.88);
+}

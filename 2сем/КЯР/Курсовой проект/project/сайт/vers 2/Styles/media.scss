@@ -1,0 +1,105 @@
+/*Планшетный размер*/
+@media (max-width: 992px){
+    .header__menu {
+        margin: 0px 0px 0px 100px;
+    }
+    .header__logo{
+        font-size: 40px;
+    }
+    .header__logo svg{
+        width:100px;
+    }
+    .menu__link {
+        font-size: 17px;
+    }
+    .Rent-block__col{
+        width: 100%;
+    }
+    .Rent-block__col50{
+        display: block;
+    }
+    .Rent-block__col input[type=text]{
+        width: 90%;
+    }
+    .button__ckeckout{
+        width: 90%;
+    }
+    .history_img{
+        z-index: 2;
+        width: 100%;
+        margin: 0 0 15px 0;
+        float:none;
+    }
+    .googlemap-block__content iframe{
+        border:5px dotted rgba(38, 38, 38, 0.88);
+    }
+    .gallery-block__content {
+        height: 100%;
+        padding-bottom: 0;
+    }
+    .googlemap-block__content{
+        height: 300px;
+    }
+}
+@media (max-width: 900px){
+    .information-block__main{
+        display:inline-block;
+    }
+    .infoblock__menu{
+        padding: 0;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .infoblock__menu li{
+        margin: 10px;
+    }
+    //перекрытие старого стиля
+    .infoblock__menu li:not(:first-child) {
+        margin-top: 10px;
+    }
+    .Infoblock-block__container{
+        width: 100%;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    .Infoblock-menu__container{
+        margin-right: 0;
+    }
+}
+/*мобильный размер*/
+@media (max-width: 767px){
+    .header__menu {
+        margin: 0px 0px 0px 80px;
+    }
+    .header__logo{
+        font-size: 30px;
+    }
+    
+}
+@media (max-width: 600px){
+    .Infoblock-block__container{
+        padding: 10px;
+    }
+}
+/*мобильный размер2*/
+@media (max-width: 479px){
+    .menu__link{
+        font-size: 18px;
+    }
+    .header__container{
+        min-height: 75px;
+    }
+    .header__menu {
+        margin: 0px 0px 0px 0px;
+    }
+    .infoblock__menu li {
+        width: 124px;
+    }
+}
+@media (max-width: 365px){
+    .header__menu {
+        margin: 0px 0px 0px 0px;
+    }
+}

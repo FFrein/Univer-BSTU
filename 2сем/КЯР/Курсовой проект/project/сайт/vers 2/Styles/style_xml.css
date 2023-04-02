@@ -1,0 +1,34 @@
+Abody{
+display:block;
+max-width: 1080px;
+text-align:center;
+margin:auto;
+margin-top:12pt;
+font-size:15pt
+}
+Ap{
+font-style:italic;
+display: block;
+text-align:left
+}
+h{
+display:block;
+text-align:center;
+font-weight:bold;
+EXAM
+{ display:block;
+text-align:center;
+}
+toto{
+display:block;
+text-align:center;
+PASSING
+{ display:block;
+text-align:center;
+}
+AText{
+display:block;
+text-align:left
+border-style:solid
+border-color:#8C0088
+}
