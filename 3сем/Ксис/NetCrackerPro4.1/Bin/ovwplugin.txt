@@ -1,0 +1,19 @@
+OVWPlugin
+---------
+
+OVWPlugin.exe is an OpenView Windows plug-in for NetCracker. 
+HPOV Import uses OVWplugin to get access to current OVW open map data.
+
+HPOV Import can interact with OVW directly, without plug-in, but
+in this case all HPOV database objects are imported.
+
+How to install OVWplugin
+------------------------
+1. Copy NCImport.reg to OpenView/registration/c folder.
+2. Set full OVWPlugin.exe path in the NCImport.reg file.
+3. Launch OpenView Windows system. If plug-in is installed properly, OVW's 
+   main menu contains "NetCracker>Load OVWPlugin" menu item.
+
+Importrant
+----------
+Launch OVWplugin EVERY TIME you want to import OVW map.

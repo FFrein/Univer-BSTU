@@ -1,0 +1,51 @@
+a        {color: #0000ff;}
+a:active {color: #0000ff;}
+a:hover  {color: #ff4040;}
+body {
+	font-size: 0.8em;
+	font-family: Tahoma, Arial, sans-serif;
+	text-align: left;
+	border: 0; margin: 0; padding: 0;
+	background: white;
+	color: black;
+}
+h1,h2,h3,h4 {
+	font-family: Trebuchet MS, Verdana, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	border: 0;
+	border-bottom: 1px solid #bbb; 
+	margin: 12px 0 8px 0;
+	padding: 0;
+}
+h2,h4 {font-weight: bold;}
+h3,h4 {font-family: Tahoma, sans-serif;}
+h1 {font-size: 1.7em;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.4em;}
+h4 {font-size: 1.0em;}
+hr {height: 1px;}
+p {border: 0; margin: 8px 0; padding: 0;}
+blockquote {border: 0; margin: 5px 0 5px 30px; padding: 0;}
+pre {font-size: 1em; border: 1px solid #bbb; margin: 4px; padding: 4px; background-color: #e8e8e8;}
+pre em {color: #ff0000; font-weight: bold; font-style: normal;}
+dt {margin: 5px 0 0 0; font-weight: bold;}
+dd {margin: 0 0 0 30px;}
+ul {border: 0; margin: 4px 0 4px 30px; padding: 0; list-style-position: outside;}
+ol {border: 0; margin: 4px 0 4px 30px; padding: 0; list-style-position: outside;}
+
+.ulNone {border: 0; margin: 0; padding: 0.1em 0; list-style: none;}
+.ulFlat  {padding: 0;}
+.ulFlat li {display: inline; padding: 0 1.5em 0 0;}
+
+.cHead,.cBody,.cFoot {border: 0; margin: 0;}
+.cHead,.cFoot {background: black; color: #eee; padding: 2px 5px 3px 10px;}
+.cHead a,.cFoot a {color: #ec2;}
+.cBody {padding: 0 5px 10px 10px;}
+
+.cHeader {border: 0; margin: 0; padding: 0;}
+.cHeader h1 {padding: 12px 0 0 0; margin: 0 0 8px 0;}
+.cLang,.cCopy {border: 0; margin: 0; padding: 0; font-size: 0.85em; line-height: 1.5em;}
+.cLang {float: right;}
+
+.cBox {border: 1px dashed #bbb; margin: 4px; padding: 4px; background-color: #f8f8f8;}
+.cCenter td, .cCenter th {vertical-align: middle; text-align: center;}

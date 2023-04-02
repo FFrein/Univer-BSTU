@@ -1,0 +1,28 @@
+/*
+   NetCracker OVW plugin registration file.
+*/        
+
+
+Application "ovw_nc_import"
+{
+    Version "NetCracker OVW import 2.0";
+
+    Copyright {
+        "Copyright (c) 2000 NetCracker Technology",
+        "All rights reserved."
+    }
+
+    Description {
+        "NetCracker OVW import 2.0",
+        "ServerComponent"
+    }
+
+    MenuBar "NetCracker" _N {
+        "Load OVWPlugin" _L f.action "loadplugin";
+    }
+
+    Action loadplugin {
+        /* Set actual filepath for ovwplugin.exe here */
+        Command -Shared "\"d:/Program Files/NetCracker/OVWPlugin.exe\"";
+    }
+}

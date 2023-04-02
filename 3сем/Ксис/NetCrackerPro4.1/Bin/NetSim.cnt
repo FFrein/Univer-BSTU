@@ -1,0 +1,331 @@
+:Base netsim.hlp
+:Title NetCracker Professional 4.1
+1 About NetCracker Professional
+2 About NetCracker Professional=About_NetCracker_Professional
+2 Custume Data Profiles=Custom_Data_Profiles
+2 Statistical Indicators=Statistical_Indicators
+1 Getting Started
+2 Designing a Simple Project=Designing_a_Simple_Project
+2 Printing a Project, Page or Report=Printing_a_Project_Page_or_Report
+2 How to attach image=How_to_attach_image
+1 Changing the Look of the Site
+2 Changing the Name of a Site or its Container=Changing_the_Name_of_a_Site_or_its_Container
+2 Parts of a Site Window=Changing_How_Site_Windows_Are_Displayed
+2 Changing Colors of the Page and Non-Printing Region=Changing_Colors_of_the_Page_and_Non_Printing_Region
+2 Adding Maps as Backgrounds on a Site Page=Adding_Maps_as_Backgrounds_on_a_Site_Page
+2 Adding a grid to a Site Page=Adding_a_grid_to_a_Site_Page
+2 Adding an Image to a Site Page=Adding_an_Image_to_a_Site_Page
+2 Creating Bends In Links=Creating_Bends_In_Links
+2 Titles of links=HID_TITLES_OF_LINKS
+1 Devices
+2 Adding a Device To a Project=Adding_a_Device_To_a_Project
+2 Changing a Device Label=Changing_a_Device_Label
+2 Changing a Component's Display Size=Changing_a_Component_s_Display_Size
+2 Viewing Device Configuration=Viewing_or_Changing_a_Device_s_Configuration
+2 Viewing or Changing Device Properties=Viewing_or_Changing_Device_Properties
+2 Changing Properties Of a Component or Sub-component=Changing_Properties_Of_a_Component_or_Sub_component
+2 Stacks
+3 Adding and Deleting Stackable Devices=Adding_a_Device_to_a_Stack
+3 Viewing the Configuration of a Device In a Stack=Viewing_or_Changing_the_Configuration_Of_a_Device_In_a_Stack
+3 Changing the Properties of a Device in a Stack=Changing_the_Properties_of_a_Device_in_a_Stack
+1 Establishing Connectivity
+2 Adding Plug-Ins or Network Cards To a Device=Adding_Plug_Ins_or_Network_Cards_To_a_Device
+2 Link Assistant Dialog=HIDD_LINKER
+2 Linking Devices in the Same Site=Linking_Devices_in_the_Same_Site
+2 Linking Devices in Different Sites=Linking_Devices_on_Different_Levels
+2 Changing Link Properties=Changing_Link_Properties
+2 Quick Linking=Quick_Linking
+2 Tracing the Path Between Devices=Tracing_Path_Between_Devices
+1 Generating Data Flow
+2 Assigning Traffic or Calls=Assigning_Pre_Defined_Traffic_or_Calls
+2 Viewing or Changing a Traffic or Call Profile=Viewing_or_Changing_a_Traffic_or_Call_Profile
+2 Seting up Client Sever Relationships=Seting_up_Client_Sever_Relationships
+2 Permanent Virtual Circuits in Frame Relay Clouds=Permanent_Virtual_Circuits_in_Frame_Relay_Clouds
+2 Data Flow Dialog=HIDD_RELATIONS
+2 Profiles Dialog=HIDD_PROFILES
+2 Creating a New Profile=Creating_a_New_Profile
+1 Running the Animation
+2 Understanding NetCracker Animation=Understanding_NetCracker_Animation
+2 Changing How Animation Appears=Changing_How_Animation_Appears
+2 Advanced Animation Setup=HIDD_CLASS_SETUP_ADV
+1 Multilevel Design
+2 Adding Levels and Sites Using Containers=Adding_Levels_and_Sites_Using_Containers
+2 Converting a Traffic Generator or Receiver To a Container=Converting_a_Traffic_Generator_or_Receiver_To_a_Container
+2 Tips for Creating Hierarchical Designs=Tips_for_Creating_Complex_Designs
+1 Testing Scenarios
+2 How to display statistics=How_to_display_statistics
+2 Obtaining Reports=Obtaining_Reports
+2 Rerouting Traffic=Breaking_and_Restoring_Components
+1 Discovery
+2 What is AutoDiscovery=What_is_AutoDiscovery
+2 AutoDiscovery -- Selecting Discovery Engine=AutoDiscovery_Selecting_Discovery_Engine
+2 AutoDiscovery -- Matching Devices=AutoDiscovery_Matching_Devices
+2 AutoDiscovery -- Matching Results=AutoDiscovery_Matching_Results
+2 AutoDiscovery -- Editing Results=AutoDiscovery_Editing_Results
+2 AutoDiscovery -- Database=AutoDiscovery_Database_screen
+2 AutoDiscovery -- Creating NetCracker Design=AutoDiscovery_Creating_NetCracker_Design
+2 NetCracker SNMP Discovery
+3 NetCracker SNMP Discovery -- Settings=AutoDicovery_NetCracker_SNMP_Discovery_Settings
+3 NetCracker SNMP Discovery -- Limiting Ranges=NetCracker_SNMP_discovery_Limiting_Ranges
+3 NetCracker SNMP Discovery -- Excluding Ranges=NetCracker_SNMP_discovery_Excluding_Ranges
+3 NetCracker SNMP Discovery -- Range SNMP Settings=NetCracker_SNMP_discovery_Range_SNMP_Settings
+3 NetCracker SNMP Discovery - Ready to start=NetCracker_SNMP_Discovery_Ready_To_Start
+3 NetCracker SNMP Discovery Console=NetCracker_SNMP_Discovery_Console_
+2 HP OpenView Import
+3 HP OpenView Import -- Overview=HP_OpenView_Import_Overview
+3 HP OpenView Import -- Start=HP_OpenView_Import_Start
+3 HP OpenView Import -- Database=HP_OpenView_Import_Database
+3 HP OpenView Import -- IP Subnet Browser=HP_OpenView_Import_IP_Subnet_Browser
+3 HP OpenView Import -- Map Preparation=HP_OpenView_Import_Map_Preparation
+3 HP OpenView Import -- Map=HP_OpenView_Import_Map
+3 HP OpenView Import -- How to install the OVWPlugin=HP_OpenView_Import_How_to_install_the_OVWPlugin
+2 Visio Drawing Import
+3 Visio Drawing Import -- Overview=Visio_Drawing_Import
+3 Visio Drawing Import -- File Name=Visio_Drawing_Import_File_Name
+3 Visio Drawing Import -- Finish=Visio_Drawing_Import_Finish
+1 IP Planner
+2 IP Planner Dialog=HIDD_IPPLANNER
+2 IP Address=IP_address
+2 IP Address Class=IP_Address_Class
+2 IP Masking=IP_Masking
+2 IP Subnetting=IP_Subnetting
+2 Physical Network (Subnet)=Physical_network
+2 Project's Physical Subnet Topology=Project_s_physical_subnet_topology
+2 IP Address Calculator=IP_Address_Calculator
+1 Frequently Asked Questions
+2 Technical Support=Technical_Support
+2 Copyright=Copyright
+1 Commands, Menus and Dialogs
+2 Menu Overview
+3 File Menu=File_Menu
+3 Edit Menu=Edit_Menu
+3 View Menu=View_Menu
+3 Database Menu=Database_Menu
+3 Global Menu=Global_Menu
+3 Sites Menu=Sites_Menu
+3 Object Menu=Object_Menu
+3 Control Menu=Control_Menu
+3 Tools Menu=Tools_Menu
+2 File Menu
+3 New Command (File Menu)=HID_PRJ_NEW
+3 Open Command (File Menu)=HID_PRJ_OPEN
+3 Close Command (File Menu)=HID_PRJ_CLOSE
+3 Save Command (File Menu)=HID_PRJ_SAVE
+3 Save As Command (File Menu)=HID_PRJ_SAVE_AS
+3 Send Command (File Menu)=HID_FILE_SEND_MAIL
+3 Discover Command (File Menu)=HID_PRJ_DISCOVER
+3 Properties Command (File Menu)=HIDD_PRJ_PROPERTIES
+3 Print (File Menu)=HID_FILE_PRINT
+3 Print Preview (File Menu)=HID_FILE_PRINT_PREVIEW
+3 Print Setup (File Menu)=HID_FILE_PRINT_SETUP
+3 Recent File Command (File Menu)=HID_FILE_MRU_FILE1
+3 Exit Command (File Menu)=HID_APP_EXIT
+2 Edit Menu
+3 Cut (Edit Menu)=HID_EDIT_CUT
+3 Copy (Edit Menu)=HID_EDIT_COPY
+3 Paste (Edit Menu)=HID_EDIT_PASTE
+3 Delete (Edit Menu)=HID_EDIT_CLEAR
+3 Duplicate (Edit Menu)=HID_EDIT_CLONE
+3 Replicate (Edit Menu)=HID_EDIT_REPLICATE
+3 Select All (Edit Menu)=HID_EDIT_SELECT_ALL
+3 Find (Edit Menu)=HIDD_DEVICE_FIND
+2 View Menu
+3 Status Bar Command (View Menu)=HID_VIEW_STATUS_BAR
+3 Full Screen Command (View Menu)=HID_VIEW_FULLSCREEN
+3 Media Colors Command (View Menu)=HIDM_CHANGE_LEGEND
+3 Legends Command (View Menu)=HID_VIEW_LEGEND1
+3 Project Hierarchy Command (View Menu)=HID_VIEW_PANE_PRJ_HIERARCHY
+3 Database Browser Command (View Menu)=HID_VIEW_PANE_DATABASE
+3 Compatible Components Command (View Menu)=HID_VIEW_PANE_COMPATIBLE
+3 Break Color For Site Name=HID_VIEW_BREAKCOLOR
+3 Zoom
+4 Zoom:  Zoom In Command (View Menu)=HID_VIEW_ZOOM_IN
+4 Zoom:  Zoom Out Command (View Menu)=HID_VIEW_ZOOM_OUT
+4 Zoom:  Zoom to Page Command (View Menu)=HID_VIEW_ZOOM_PAGE
+4 Zoom:  Zoom 1:1 Command (View Menu)=HID_VIEW_ZOOM_100
+4 Zoom:  Zoom to One Side (View Menu)=HID_VIEW_ZOOM_SIDE
+4 Zoom:  Undo Change Zoom (View Menu)=HID_VIEW_ZOOM_BACK
+4 Zoom to Region Command=HID_VIEW_ZOOM_REGION
+3 Bars
+4 Bars:  Standard Toolbar Command (View Menu)=HID_VIEW_TOOLBAR_STD
+4 Bars:  Zoom Toolbar Command (View Menu)=HID_VIEW_TOOLBAR_ZOOM
+4 Bars:  Drawing Toolbar Command (View Menu)=HID_VIEW_TOOLBAR_DRAW
+4 Bars:  Modes Toolbar Command (View Menu)=HID_VIEW_TOOLBAR_MODES
+4 Bars:  Control Toolbar Command (View Menu)=HID_VIEW_TOOLBAR_ANIMATION
+4 Bars:  Database Toolbar Command (View Menu)=HID_VIEW_TOOLBAR_DATABASE
+4 Bars:  Trace Toolbar Command (View Menu)=Trace_Toolbar
+4 Bars:  Browser Pane Command (View Menu)=HID_VIEW_CTLBAR_BROWSER
+4 Bars:  Image Pane Command (View Menu)=HID_VIEW_CTLBAR_PALETTE
+3 Image Pane
+4 Image Pane:  Large Icons Command (View Menu)=HID_VIEW_PALETTE_LARGE
+4 Image Pane:  Small Icons Command (View Menu)=HID_VIEW_PALETTE_SMALL
+4 Image Pane:  List Command (View Menu)=HID_VIEW_PALETTE_LIST
+4 Image Pane:  Details Command (View Menu)=HID_VIEW_PALETTE_DETAILS
+3 Devices
+4 Devices: Generic View Command (View Menu)=HID_VIEW_GENERIC
+4 Devices: Reduce to Icon Command (View Menu)=HID_VIEW_ICONS
+2 Database Menu
+3 Hide Empty Folders Command (Database Menu)=HID_VIEW_DB_SHOWEMPTY
+3 Hierarchy Command (Database Menu)=HID_DATABASE_CHOOSE
+3 Find Command (Database Menu)=HID_VIEW_DB_FIND
+3 Device Factory Command (Database Menu)=HID_VIEW_DB_FACTORY
+2 Global Menu
+3 Model Settings Command (Global Menu)=HID_SIM_LIBMAIN_PARAM
+3 Data Flow Command (Global Menu)=HID_SIM_RELATIONS
+3 Project Setup Command (Global Menu)=HID_SIM_DEFAULTS
+3 Acquire Update All Command (Global Menu)=HID_SIM_UPDATE_DATA_RECURSIVE
+3 Profiles Command (Global Menu)=HID_SIM_PROFILES
+2 Sites Menu
+3 Sites Setup Command (Sites Menu)=HID_DESIGN_PAGE_SETUP
+3 Modes
+4 Modes:  Standard Command (Sites Menu)=HID_MODE_SELECT
+4 Modes:  Draw Command (Sites Menu)=HID_MODE_DRAW
+4 Modes:  Link Command (Sites Menu)=HID_MODE_LINK
+4 Modes: Draft Link Command (Sites Menu)=Draft_Link
+4 Modes:  Set Traffic Command (Sites Menu)=HID_MODE_TRAFFIC
+4 Modes:  Set Voice Call Command (Sites Menu)=HID_MODE_CALLS
+4 Modes:  Set Data Call Command=HID_MODE_DATA_CALLS
+4 Modes:  Break/Restore Command (Sites Menu)=HID_MODE_BREAK
+4 Modes: Trace Path Command (Sites Menu)=HID_MODE_TRACE
+4 Modes:  Say Info Command (Sites Menu)=HID_MODE_STATS
+3 Draw
+4 Draw:  Pointer Command (Sites Menu)=HID_DRAW_POINTER
+4 Draw:  Line Command (Sites Menu)=HID_DRAW_LINE
+4 Draw:  Rectangle Command (Sites Menu)=HID_DRAW_RECT
+4 Draw:  Round Rectangle Command (Sites Menu)=HID_DRAW_RRECT
+4 Draw:  Ellipse Command (Sites Menu)=HID_DRAW_ELLIPSE
+4 Draw: Circle Command (Sites Menu)=HID_DRAW_CIRCLE
+4 Draw:  Filled Rectangle Command (Sites Menu)=HID_DRAW_RECT_FILLED
+4 Draw:  Filled Round Rectangle Command (Sites Menu)=HID_DRAW_RRECT_FILLED
+4 Draw:  Filled Ellipse Command (Sites Menu)=HID_DRAW_ELLIPSE_FILLED
+4 Draw: Filled Circle Command (Sites Menu)=HID_DRAW_CIRCLE_FILLED
+4 Draw:  Test Command (Sites Menu)=HID_DRAW_TEXT
+4 Draw:  Image Command (Sites Menu)=HID_DRAW_PICTURE
+3 Trace
+4 Set Trace Color=HID_TRACE_COLOR_BUTTON
+4 Multi-Trace Mode=HID_ADD_TRACE
+4 Trace: Reset Trace Command (Site Menu)=HID_RESET_TRACE
+2 Object Menu
+3 Properties Command (Object Menu)=HID_OLE_EDIT_PROPERTIES
+3 Open Command (Object Menu)=HID_OBJ_OPEN
+3 Expand Command (Object Menu)=HID_OBJ_EXPLODE
+3 Configuration Command (Object Menu)=HID_OBJ_CONFIGURATION
+3 Configure Ports Command (Object Menu)=HID_OBJ_PORTS
+3 Define Statistics Command (Object Menu)=HID_OBJ_STATISTICS
+3 Associated Data Flow Command (Object Menu)=HID_OBJ_TRAFFIC
+3 Find Compatible Command (Object Menu)=HID_OBJ_FIND_COMPAT
+3 Acquire Update Command (Object Menu)=HID_OBJ_UPDATE_DATA
+3 Break Command (Object Menu)=HID_OBJ_BREAK
+3 Restore Command (Object Menu)=HID_OBJ_RESTORE
+3 Attach Image Command (Object Menu)=HID_OBJ_ATTACH_IMAGE
+3 Detach Image=HID_OBJ_DETACH_IMAGE
+3 Organize Command (Object Menu)=HID_OBJ_ORGANIZE
+3 Say
+4 Say:  Current Statistics Command (Object Dialog)=HID_OBJ_SAY_STAT
+4 Say:  Notes Command (Object Menu)=HID_OBJ_SAYNOTES
+4 Say:  Description (Object Menu)=HID_OBJ_SAY_DESCR
+3 Add to Database
+4 Add to Database:  Selected Component Command (Object Menu)=HID_OBJ_ADD_DATABASE
+4 Add to Database: Via Factory Command  (Object Menu)=HID_OBJ_DEV_FACTORY
+3 Styles
+4 Styles:  Draw Command (Object Menu)=HID_OBJ_LINECOLOR
+4 Styles:  Fill Color Command (Object Menu)=HID_OBJ_FILLCOLOR
+4 Styles:  Text Command (Object Menu)=HID_OBJ_TEXT
+4 Styles:  Font Command (Object Menu)=HID_OBJ_FONT
+4 Styles:  Image Command (Object Menu)=HID_OBJ_IMAGE
+4 Styles:  Title Command (Object Menu)=HID_OBJ_TOGGLE_TITLE
+3 Arrange
+4 Arrange:  Move To Front (Object Menu)=HID_OBJ_MOVETOFRONT
+4 Arrange:  Move To Back (Object Menu)=HID_OBJ_MOVETOBACK
+4 Arrange:  Move Forward (Object Menu)=HID_OBJ_MOVEFORWARD
+4 Arrange:  Move Back  (Object Menu)=HID_OBJ_MOVEBACK
+2 Control Menu
+3 Start Command (Control Menu)=HID_SIM_START
+3 Stop Command (Control Menu)=HID_SIM_STOP
+3 Pause Command (Control Menu)=HID_SIM_PAUSE
+3 Simulation Faster Command (Control Menu)=HID_SIM_FASTER_SIM
+3 Simulation Slower Command (Control Menu)=HID_SIM_SLOWER_SIM
+3 Animation Faster Command (Control Menu)=HID_SIM_FASTER
+3 Animation Slower Command (Control Menu)=HID_SIM_SLOWER
+3 Animation Default Command (Control Menu)=HID_SIM_EQUAL
+3 Animation Setup Command (Control Menu)=HID_ANIMATION_SETUP
+3 Quiet Command (Control Menu)=HID_ANIM_QUIET
+2 Tools Menu
+3 IP Planner Command (Tools Menu)=HID_TOOLS_IPPLANNER
+3 HTML Export=HTools_Export_HTML
+3 Graphic Export Command (Tools Menu)=HIDD_TOOLS_GREXPORT
+3 Default Layout Command (Tools Menu)=HID_VIEW_RESET_LAYOUT
+3 Options Command (Tools Menu)=HID_TOOLS_OPTIONS
+3 Reports
+4 Reports: BOM Command (Tools Menu)=HID_TOOLS_REPORT_1
+4 Reports: Device Summery Command (Tools Menu)=HID_TOOLS_REPORT_2
+4 Reports: Workstations Command (Tools Menu)=HID_TOOLS_REPORT_3
+4 Reports:  Servers Command (Tools Menu)=HID_TOOLS_REPORT_4
+4 Reports:  Network Adapters Command (Tools Menu)=HID_TOOLS_REPORT_5
+4 Reports:  Hubs Commands (Tools Menu)=HID_TOOLS_REPORT_6
+4 Reports:  Switches Command (Tools Menu)=HID_TOOLS_REPORT_7
+4 Reports:  Bridges and Routers Command (Tools Menu)=HID_TOOLS_REPORT_8
+4 Reports:  Wizard Command (Tools Menu)=HID_TOOLS_REPORT_WIZ
+2 Window Menu
+3 New Window Command (Windows Menu)=HID_WINDOW_NEW
+3 Cascade Command (Window Menu)=HID_WINDOW_CASCADE
+3 Tile Command (Window Menu)=HID_WINDOW_TILE_HORZ
+3 Arrange Command (Window Menu)=HID_WINDOW_ARRANGE
+2 Help Menu
+3 Topics and Index Command (Help Menu)=HID_HELP_FINDER
+3 How to Use Help Command (Help Menu)=HID_HELP_USING
+3 Quick Tour Command (Help Menu)=HID_HELP_TOUR
+3 Tutorial Command (Help Menu)=HID_HELP_TUTORIAL
+3 NetCracker on the Web Command (Help Menu)=HID_HELP_THE_WEB
+3 About NetCracker Command (Help Menu)=HID_APP_ABOUT
+2 Dialogs
+3 Media Colors Dialog=HIDD_MEDIA_COLORS
+3 Break Color For Site Name Dialog=HID_VIEW_BREAKCOLOR
+3 Site Setup Dialog
+4 Name Tab:  Site Setup=HIDDS_PAGE_NAMES
+4 Background Tab:  Site Setup=HIDDS_PAGE_BACKGR
+4 Layout Tab:  Site Setup=HIDDS_PAGE_LAYOUT
+4 Margin Tab:  Site Setup=HIDDS_PAGE_MARGINS
+4 Grid Tab:  Site Setup=HIDDS_PAGE_GRID
+4 Multipage Tab:  Site Setup=HIDDS_PAGE_MULTI
+3 Animation Setup Dialog
+4 Packet Tab: Animation Setup Dialog=HIDDS_AS_PACKETS
+4 Calls Tab: Animation Setup Dialog=HIDDS_AS_CALLS
+4 Advanced Animation Setup=HIDD_CLASS_SETUP_ADV
+3 Options Dialog
+4 General Tab:  Options dialog=HIDDS_OPT_GENERAL
+4 Confirmations Tab:  Options Dialog=HIDDS_OPT_CONFIRM
+4 Packets Tab:  Options Dialog=HIDDS_TO_PACKETS
+4 Calls Tab: Options dialog=HIDDS_TO_CALLS
+4 Database Tab: Options Dialog=Database_Tab_Options_Dialog
+3 Legends Dialog
+4 Packet Shapes Tab: Legends Dialog=HIDD_LEGEND2
+3 Device Dialogs
+4 Statistical Items Dialog=HIDD_ANIMDIALOG
+4 Find Dialog=HIDD_DATABASE_FIND
+4 Associated Data Flow Dialog=HIDDS_PIECHART
+4 Device Find Dialog=HIDD_DEVICE_FIND
+3 Properties and Configuration Dialogs
+4 Properties Dialog=HIDD_DYN_DEVICE
+4 Ports Configuration Dialog=HIDD_PORTS
+4 Port Properties Dialog=HIDD_DYN_PORT_PROP
+4 Model Settings Dialog=HIDD_DYN_MODEL
+4 Simple Device Configuration Dialog=HIDD_DEVICE
+4 Device Configuration Dialog=HIDD_CHASSIS
+4 Document Properties Dialog=HIDD_PRJ_PROPERTIES
+4 Image Browser Dialog=Image_Browser
+3 Connectivity and Data Dialogs
+4 Link Assistant Dialog=HIDD_LINKER
+4 Data Flow Dialog=HIDD_RELATIONS
+4 Profiles Dialog=HIDD_PROFILES
+3 Editing Dialogs
+4 Organize Dialog=HIDD_ORGANIZE
+4 Replicate Dialog=HIDD_REPLICATE
+4 Device Find Dialog=HIDD_DEVICE_FIND
+3 Project Setup Dialog
+4 Devices Tab:  Project Setup Dialog=HIDDS_PRJ_DEVICES
+4 Font Tab:  Project Setup Dialog=HIDD_PRJ_FONT
+3 Export Dialogs
+4 Report Wizard Dialog=Report_Wizard
+4 HTML Export Wizard=HIDD_TOOLS_HTMLEXPORT
+4 Snapshot Wizard=HIDD_TOOLS_GREXPORT
