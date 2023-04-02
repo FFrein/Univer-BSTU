@@ -1,0 +1,150 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LR4_5_TryOne"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="LR4_5_TryOne.MainWindow"
+        mc:Ignorable="d"
+        Title="Remanga Desctop" 
+        MinHeight="480" 
+        MinWidth="640"
+        Background="#121212" Height="480" Width="707"
+        >
+
+    <Window.Resources>
+        <ResourceDictionary Source="Dictionary_Rus.xaml" />
+    </Window.Resources>
+    <!-- #1975d2 акцентный цвет для слов-->
+    <Grid x:Name="MenuGrid" Margin="0,0,0,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="189"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid />
+        <!--Грид панель-->
+        <!--Строка 1-->
+        <Button x:Name="ChangeLng" Content="Lng : RU" 
+                   HorizontalAlignment="Left" 
+                   Margin="10,10,0,0" 
+                   VerticalAlignment="Top" 
+                   Height="17" Width="27" 
+                   FontFamily="Bahnschrift Condensed" 
+                   FontSize="6" 
+                   Foreground="White"
+                   Click="ChangeLang" Background="#FF343434"
+               />
+        <Label x:Name="LB_Find"  Style="{DynamicResource Find}"/>
+
+        <TextBox    x:Name="TB_ProdName" 
+                    Margin="22,0,22,0" 
+                    TextChanged="TextBox_ProductName" 
+                    RenderTransformOrigin="0.5,0.5"
+                    Grid.Row="1" 
+                    VerticalAlignment="Center" 
+                    Height="30" 
+                    FontSize="22"
+                    
+                    Style="{DynamicResource InputBox}" 
+                    />
+        <!--Строка 3-->
+
+        <!--Строка 4-->
+        <ComboBox   x:Name="CB_Type" 
+                    Margin="22,0,22,0" 
+                    Grid.Row="2"
+                    Background="#FF373737" 
+                    BorderBrush="#FF373737" 
+                    Foreground="#FF373737" VerticalAlignment="Center" Height="30" FontFamily="Bahnschrift Condensed" SelectionChanged="ComboBox_ProductType" FontSize="20">
+            <System:String>Манга</System:String>
+            <System:String>Новелла</System:String>
+            <System:String>Манхва</System:String>
+            <System:String>Маньхуа</System:String>
+        </ComboBox>
+        <!--Строка 5-->
+        <Label x:Name="LB_Price" Style="{DynamicResource Price}" Grid.Row="3" HorizontalAlignment="Left" Margin="17,14,0,0"/>
+
+        <!--Строка 6-->
+        <TextBox    x:Name="TB_MinPrice" 
+                    TextChanged="TextBox_PriceMin"
+                    Margin="22,0,0,0"
+                    RenderTransformOrigin="0.5,0.5"
+                    Grid.Row="4" 
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Left" 
+                    
+                    Width="50" Height="30" 
+
+                    Style="{DynamicResource InputBox}" 
+                    />
+
+        <TextBox    x:Name="TB_MaxPrice" 
+                    Margin="117,0,0,0" 
+                    TextChanged="TextBox_PriceMax" 
+                    Grid.Row="4"
+                    Style="{DynamicResource InputBox}" 
+                    RenderTransformOrigin="0.5,0.5" 
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Left" 
+                    Width="50" Height="30" 
+                    />
+        <!--Строка 7-->
+
+        <!--Строка 8-->
+        <TextBox    x:Name="TB_Genre" 
+                    Margin="22,0,22,0" 
+                    TextChanged="TextBox_Genre" 
+                    Grid.Row="5"
+                    VerticalAlignment="Center" Height="30" 
+                    Visibility="Hidden"
+                    
+                    Style="{DynamicResource InputBox}" 
+                    />
+        <!--Строка 9-->
+        <Button x:Name="ButtonFind"
+                
+                HorizontalContentAlignment="Center"
+                Grid.Row="6" Margin="22,0,0,0" 
+                VerticalAlignment="Center" 
+                RenderTransformOrigin="0.66,-2.027" 
+                HorizontalAlignment="Left" 
+                Click="Button_Find" 
+                Panel.ZIndex="5"
+                
+                Style="{DynamicResource ButtonFind}" 
+                />
+        <!--Строка 10-->
+        <Button x:Name="BTN_ADMIN" 
+                Margin="22,10,22,76" 
+                Grid.Row="7" 
+                VerticalContentAlignment="Center" 
+                VerticalAlignment="Top" 
+                Click="BTN_ADMIN_Click_1" 
+                
+                Style="{DynamicResource ButtonAdmin}" 
+                />
+        <!--Элементы-->
+        <ScrollViewer 
+                Grid.RowSpan="8" 
+                Grid.Column="1" 
+                Margin="0,10,10,10"
+                HorizontalContentAlignment="Stretch" 
+                VerticalContentAlignment="Stretch"
+                HorizontalAlignment="Right">
+            <WrapPanel x:Name="WrapPanel" >
+                <Image Height="100" Width="100" Source="/phonk.jpg" Margin="10,10,10,10" />
+            </WrapPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

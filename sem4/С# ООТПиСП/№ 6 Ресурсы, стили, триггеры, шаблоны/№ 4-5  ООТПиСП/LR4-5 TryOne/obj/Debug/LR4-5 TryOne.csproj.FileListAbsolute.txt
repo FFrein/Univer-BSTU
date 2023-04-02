@@ -1,0 +1,94 @@
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\LR4-5 TryOne.exe.config
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\LR4-5 TryOne.exe
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\LR4-5 TryOne.pdb
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.csproj.AssemblyReference.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.csproj.SuggestedBindingRedirects.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\MainWindow.g.cs
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\App.g.cs
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne_MarkupCompile.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne_MarkupCompile.lref
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\MainWindow.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.g.resources
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4_5_TryOne.Properties.Resources.resources
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.csproj.GenerateResource.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.csproj.CoreCompileInputs.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.exe
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.pdb
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\Theme\MainDictionary.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\AdminPanel.g.cs
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\AdminPanel.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\AboutProudct.g.cs
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\AboutProudct.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Buffers.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Memory.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Numerics.Vectors.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Text.Encodings.Web.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Text.Json.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.ValueTuple.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Buffers.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Memory.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Numerics.Vectors.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Text.Encodings.Web.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Text.Json.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.ValueTuple.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.csproj.CopyComplete
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\Newtonsoft.Json.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\Newtonsoft.Json.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\App.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\Dictionary_Eng.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 4_5_WPF_shop_service\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\Dictionary_Rus.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\LR4-5 TryOne.exe.config
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\LR4-5 TryOne.exe
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\LR4-5 TryOne.pdb
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\Newtonsoft.Json.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Buffers.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Memory.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Numerics.Vectors.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Text.Encodings.Web.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Text.Json.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.ValueTuple.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\Newtonsoft.Json.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Buffers.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Memory.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Numerics.Vectors.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Text.Encodings.Web.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Text.Json.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\bin\Debug\System.ValueTuple.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.csproj.AssemblyReference.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.csproj.SuggestedBindingRedirects.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\Dictionary_static.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\Dictionary_Eng.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\Dictionary_Rus.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\Theme\MainDictionary.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\MainWindow.g.cs
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\AdminPanel.g.cs
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\AboutProudct.g.cs
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\App.g.cs
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne_MarkupCompile.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne_MarkupCompile.lref
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\App.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\MainWindow.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\AdminPanel.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\AboutProudct.baml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.g.resources
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4_5_TryOne.Properties.Resources.resources
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.csproj.GenerateResource.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.csproj.CoreCompileInputs.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.csproj.CopyComplete
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.exe
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\LR4-5 TryOne.pdb
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\UserControl_Switcher.g.cs
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 6 Ресурсы, стили, триггеры, шаблоны\№ 4-5  ООТПиСП\LR4-5 TryOne\obj\Debug\UserControl_Switcher.baml

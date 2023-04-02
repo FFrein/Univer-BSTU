@@ -1,0 +1,34 @@
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\bin\Debug\net6.0-windows\Lab1_Var9.exe
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\bin\Debug\net6.0-windows\Lab1_Var9.deps.json
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\bin\Debug\net6.0-windows\Lab1_Var9.runtimeconfig.json
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\bin\Debug\net6.0-windows\Lab1_Var9.dll
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\bin\Debug\net6.0-windows\Lab1_Var9.pdb
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.csproj.AssemblyReference.cache
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.Form1.resources
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.csproj.GenerateResource.cache
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.GeneratedMSBuildEditorConfig.editorconfig
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.AssemblyInfoInputs.cache
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.AssemblyInfo.cs
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.csproj.CoreCompileInputs.cache
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.dll
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\refint\Lab1_Var9.dll
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.pdb
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.genruntimeconfig.cache
+H:\MyFile\4sem\OOTP&SP\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\ref\Lab1_Var9.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\bin\Debug\net6.0-windows\Lab1_Var9.exe
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\bin\Debug\net6.0-windows\Lab1_Var9.deps.json
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\bin\Debug\net6.0-windows\Lab1_Var9.runtimeconfig.json
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\bin\Debug\net6.0-windows\Lab1_Var9.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\bin\Debug\net6.0-windows\Lab1_Var9.pdb
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.csproj.AssemblyReference.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.Form1.resources
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.csproj.GenerateResource.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.AssemblyInfoInputs.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.AssemblyInfo.cs
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.csproj.CoreCompileInputs.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\refint\Lab1_Var9.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.pdb
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\Lab1_Var9.genruntimeconfig.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП Объектно-ориентированные технологии\№ 1 Создание приложений на основе Windows Form\№1Создание приложений на основе Windows Form\Lab1_Var9\obj\Debug\net6.0-windows\ref\Lab1_Var9.dll

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfString>
+    <string>1000</string>
+    <string>FIO                                               </string>
+    <string>1</string>
+    <string>1</string>
+    <string>2</string>
+    <string>poit                          </string>
+    <string>stud                          </string>
+    <string>02.12.2002 0:00:00</string>
+    <string>m</string>
+    <string>8</string>
+  </ArrayOfString>
+  <ArrayOfString>
+    <string>1005</string>
+    <string>System.Windows.Forms.TextBox, Text: 1             </string>
+    <string>1</string>
+    <string>1</string>
+    <string>1</string>
+    <string>????                          </string>
+    <string>                              </string>
+    <string>24.02.2023 0:00:00</string>
+    <string>m</string>
+    <string>1</string>
+  </ArrayOfString>
+  <ArrayOfString>
+    <string>1006</string>
+    <string>System.Windows.Forms.TextBox, Text: FIO1          </string>
+    <string>4</string>
+    <string>3</string>
+    <string>12</string>
+    <string>DEVI                          </string>
+    <string>                              </string>
+    <string>24.02.2023 0:00:00</string>
+    <string>m</string>
+    <string>2</string>
+  </ArrayOfString>
+  <ArrayOfString>
+    <string>1007</string>
+    <string>System.Windows.Forms.TextBox, Text: FIO2          </string>
+    <string>3</string>
+    <string>2</string>
+    <string>14</string>
+    <string>POIT                          </string>
+    <string>                              </string>
+    <string>24.02.2023 0:00:00</string>
+    <string>f</string>
+    <string>8</string>
+  </ArrayOfString>
+  <ArrayOfString>
+    <string>1008</string>
+    <string>FIO6                                              </string>
+    <string>3</string>
+    <string>6</string>
+    <string>16</string>
+    <string>DEVI                          </string>
+    <string>                              </string>
+    <string>24.02.2023 0:00:00</string>
+    <string>m</string>
+    <string>7</string>
+  </ArrayOfString>
+  <ArrayOfString>
+    <string>1009</string>
+    <string>Anto Nemarow Sergeevich                           </string>
+    <string>1</string>
+    <string>5</string>
+    <string>18</string>
+    <string>DEVI                          </string>
+    <string>                              </string>
+    <string>04.02.2006 0:00:00</string>
+    <string>m</string>
+    <string>6</string>
+  </ArrayOfString>
+  <ArrayOfString>
+    <string>1010</string>
+    <string>Sergey Nozarov Antonovich                         </string>
+    <string>2</string>
+    <string>4</string>
+    <string>20</string>
+    <string>POIT                          </string>
+    <string>                              </string>
+    <string>04.02.2003 0:00:00</string>
+    <string>m</string>
+    <string>6</string>
+  </ArrayOfString>
+</ArrayOfArrayOfString>

@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+	[FIO] CHAR(50),
+	[COURSE] INT,
+	[GROUP] int,
+)

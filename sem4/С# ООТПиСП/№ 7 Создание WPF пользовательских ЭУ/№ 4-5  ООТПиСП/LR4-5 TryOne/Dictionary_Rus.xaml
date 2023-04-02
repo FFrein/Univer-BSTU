@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="BlackAndWhite">
+        <Setter Property="Control.FontFamily" Value="Bahnschrift Condensed" />
+        <Setter Property="Control.Background" Value="#FF343434" />
+        <Setter Property="Control.Foreground" Value="White" />
+        <Setter Property="FrameworkElement.Margin" Value="10" />
+    </Style>
+
+    <Style x:Key="H1">
+        <Setter Property="Control.FontFamily" Value="Bahnschrift Condensed" />
+        <Setter Property="Control.Foreground" Value="White" />
+        <Setter Property="FrameworkElement.Margin" Value="10" />
+    </Style>
+
+    <Style x:Key="Find" TargetType="Label">
+        <Setter Property="Content" Value="Поиск&#xA;"/>
+
+        <Setter Property="Height" Value="42"/>
+        <Setter Property="Width" Value="61"/>
+        <Setter Property="RenderTransformOrigin" Value="0.517,0.379"/>
+        
+        <Setter Property="FontSize" Value="26"/>
+        <Setter Property="Control.FontFamily" Value="Bahnschrift Condensed" />
+        <Setter Property="Control.Foreground" Value="White" />
+        <Setter Property="FrameworkElement.Margin" Value="10" />
+    </Style>
+
+    <Style x:Key="Price" TargetType="Label">
+        <Setter Property="Content" Value="Стоимость"/>
+
+        <Setter Property="Height" Value="36"/>
+        <Setter Property="Width" Value="90"/>
+
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="Control.FontFamily" Value="Bahnschrift Condensed" />
+        <Setter Property="Control.Foreground" Value="White" />
+        <Setter Property="FrameworkElement.Margin" Value="10" />
+    </Style>
+
+    <Style x:Key="ButtonFind" TargetType="Button">
+        <Setter Property="Control.FontFamily" Value="Bahnschrift Condensed" />
+        <Setter Property="Control.Background" Value="#FF343434" />
+        <Setter Property="Control.Foreground" Value="White" />
+        <Setter Property="FrameworkElement.Margin" Value="10" />
+        <Setter Property="Content" Value="Поиск"/>
+        <Setter Property="Width" Value="70"/>
+        <Setter Property="FontSize" Value="22"/>
+        <Setter Property="Height" Value="34"/>
+    </Style>
+
+</ResourceDictionary>

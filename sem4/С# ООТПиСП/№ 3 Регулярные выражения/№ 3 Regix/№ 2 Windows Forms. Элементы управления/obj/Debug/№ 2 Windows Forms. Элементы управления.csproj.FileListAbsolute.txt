@@ -1,0 +1,64 @@
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\__2_Windows_Forms.Элементы_управления.exe.config
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\__2_Windows_Forms.Элементы_управления.exe
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\__2_Windows_Forms.Элементы_управления.pdb
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\obj\Debug\№ 2 Windows Forms. Элементы управления.csproj.AssemblyReference.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\obj\Debug\№ 2 Windows Forms. Элементы управления.csproj.SuggestedBindingRedirects.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\obj\Debug\__2_Windows_Forms.Элементы_управления.Form1.resources
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\obj\Debug\__2_Windows_Forms.Элементы_управления.Properties.Resources.resources
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\obj\Debug\№ 2 Windows Forms. Элементы управления.csproj.GenerateResource.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\obj\Debug\№ 2 Windows Forms. Элементы управления.csproj.CoreCompileInputs.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\obj\Debug\__2_Windows_Forms.Элементы_управления.exe
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\obj\Debug\__2_Windows_Forms.Элементы_управления.pdb
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\obj\Debug\__2_Windows_Forms.Элементы_управления.Form2.resources
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Buffers.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Memory.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Numerics.Vectors.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Text.Encodings.Web.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Text.Json.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.ValueTuple.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Buffers.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Memory.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Numerics.Vectors.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Text.Encodings.Web.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Text.Json.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\bin\Debug\System.ValueTuple.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления\obj\Debug\№ 2 Windows Forms. Элементы управления.csproj.CopyComplete
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\__2_Windows_Forms.Элементы_управления.exe.config
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\__2_Windows_Forms.Элементы_управления.exe
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\__2_Windows_Forms.Элементы_управления.pdb
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Buffers.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Memory.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Numerics.Vectors.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Text.Encodings.Web.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Text.Json.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.ValueTuple.dll
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Buffers.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Memory.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Numerics.Vectors.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Text.Encodings.Web.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Text.Json.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\System.ValueTuple.xml
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\obj\Debug\№ 2 Windows Forms. Элементы управления.csproj.AssemblyReference.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\obj\Debug\№ 2 Windows Forms. Элементы управления.csproj.SuggestedBindingRedirects.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\obj\Debug\__2_Windows_Forms.Элементы_управления.Form1.resources
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\obj\Debug\__2_Windows_Forms.Элементы_управления.Form2.resources
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\obj\Debug\__2_Windows_Forms.Элементы_управления.Properties.Resources.resources
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\obj\Debug\№ 2 Windows Forms. Элементы управления.csproj.GenerateResource.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\obj\Debug\№ 2 Windows Forms. Элементы управления.csproj.CoreCompileInputs.cache
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\obj\Debug\№ 2 Windows Forms. Элементы управления.csproj.CopyComplete
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\obj\Debug\__2_Windows_Forms.Элементы_управления.exe
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\obj\Debug\__2_Windows_Forms.Элементы_управления.pdb
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\Database1.mdf
+F:\MyFile\Универ\4sem\С# ООТПиСП\№ 3 Регулярные выражения\№ 3 Regix\№ 2 Windows Forms. Элементы управления\bin\Debug\Database1_log.ldf

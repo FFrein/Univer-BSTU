@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "№ 2 Windows Forms. Элементы управления", "№ 2 Windows Forms. Элементы управления\№ 2 Windows Forms. Элементы управления.csproj", "{1BCBC795-5750-474B-82B0-C18147156636}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BCBC795-5750-474B-82B0-C18147156636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCBC795-5750-474B-82B0-C18147156636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCBC795-5750-474B-82B0-C18147156636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCBC795-5750-474B-82B0-C18147156636}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {947B442E-6D83-4ECD-9E48-284F287ADFA3}
+	EndGlobalSection
+EndGlobal
