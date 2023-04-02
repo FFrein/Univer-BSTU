@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Задание2</title>
+</head>
+<body>
+<div>
+<p><span id="кличка"></span></p>
+<p><span id="порода"></span></p>
+<p><span id="date_of_birth"></span></p>
+<p><span id="вес"></span></p>
+<p><span id="страна"></span></p>
+</div>
+
+<script>
+txt="<собака>";
+txt=txt+"<кличка>Вупсень</кличка>";
+txt=txt+"<порода>Немецкая Овчарка</порода>";
+txt=txt+"<date_of_birth>1955</date_of_birth>";
+txt=txt+"<вес>22 - 40 кг</вес>";
+txt=txt+"<страна>Германия</страна>";
+txt=txt+"</собака>";
+
+if(window.DOMParser)
+{
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(txt,"text/xml");
+}
+else //Internet Explorer
+{
+xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+xmlDoc.async=false;
+xmlDoc.loadXML(txt);
+}
+document.getElementById("кличка").innerHTML=xmlDoc.getElementsByTagName("кличка")[0].childNodes[0].nodeValue;/*определяет текстовое значение элемента*/
+document.getElementById("порода").innerHTML=xmlDoc.getElementsByTagName("порода")[0].childNodes[0].nodeValue;
+document.getElementById("date_of_birth").innerHTML=xmlDoc.getElementsByTagName("date_of_birth")[0].childNodes[0].nodeValue;
+document.getElementById("вес").innerHTML=xmlDoc.getElementsByTagName("вес")[0].childNodes[0].nodeValue;
+document.getElementById("страна").innerHTML=xmlDoc.getElementsByTagName("страна")[0].childNodes[0].nodeValue;
+
+</script>
+</body>
+</html>

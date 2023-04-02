@@ -1,0 +1,133 @@
+body {
+    background: rgb(194, 194, 194);
+}
+
+.block{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.block1{
+    background: linear-gradient(to left, red, blue)
+}
+
+.block1:hover{
+    background: linear-gradient(to left, blue, red)
+}
+
+.block2{
+    background: linear-gradient( black, white)
+}
+
+.block3{
+    
+    background: radial-gradient(green, yellow)
+}
+
+.gridverstka{
+    display:grid;
+    width:75px;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 15px;
+    
+}
+
+.gridverstka div{
+    border: 1px solid black;
+    background: green;
+}
+
+.gridverstka div:nth-child(8){
+    grid-column: span 3;
+}
+
+.gridverstka div:nth-child(1){
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.flexverstka{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexverstka div{
+    padding-right:300px;
+}
+
+.perspectivchik{
+  perspective: 500px;
+}
+
+.perspectivchik img{
+    padding-right: 100px;
+}
+
+.perspectivchik img:nth-child(2){
+    float: left;
+    transform: rotateX(-100deg);
+}
+
+.perspectivchik img:nth-child(3){
+    float: left;
+    transform: rotateY(100deg);
+}
+
+.perspectivchik img:nth-child(4){
+    float: left;
+    transform: rotateZ(100deg);
+}
+
+.perspectivchik img:nth-child(5){
+    float: left;
+    transform: translateZ(-100px);
+}
+
+.perspectivchik img:nth-child(6){
+    float: left;
+    transform: translateY(-100px);
+}
+
+.perspectivchik img:nth-child(7){
+    float: left;
+    transform: translateX(-100px);
+}
+
+.perspectivchik img{
+    height: 200px;
+}
+
+@keyframes ExampleAnim1 {
+    0%{
+        background-color:blue;
+    }
+    25%{
+        background-color:red;
+    }
+    50%{
+        background-color:yellow;
+    }
+    75%{
+        background-color:green;
+    }
+    100%{
+        background-color:blue;
+    }
+}
+
+.Animationexample{
+    padding: 25px;
+    //animation: ExampleAnim1 5s linear infinite; 
+    animation-name:ExampleAnim1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}

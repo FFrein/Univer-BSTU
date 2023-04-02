@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="quest2.xsl"?>
+<body>
+    <people>
+        <name>Дмитрий</name>
+            <rating1>9</rating1>
+            <rating2>6</rating2>
+            <rating3>9</rating3>
+            <rating4>7</rating4>
+    </people>
+    <people>
+        <name>Илья</name>
+            <rating1>9</rating1>
+            <rating2>1</rating2>
+            <rating3>7</rating3>
+            <rating4>8</rating4>
+    </people>
+    <people>
+        <name>Никита</name>
+            <rating1>6</rating1>
+            <rating2>2</rating2>
+            <rating3>10</rating3>
+            <rating4>3</rating4>
+    </people>
+    <people>
+        <name>Александр</name>
+            <rating1>7</rating1>
+            <rating2>3</rating2>
+            <rating3>3</rating3>
+            <rating4>7</rating4>
+    </people>
+    <people>
+        <name>Миша</name>
+            <rating1>9</rating1>
+            <rating2>5</rating2>
+            <rating3>6</rating3>
+            <rating4>10</rating4>
+    </people>
+</body>

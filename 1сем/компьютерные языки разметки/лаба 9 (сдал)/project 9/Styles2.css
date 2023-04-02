@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-gap: 5px;
+    text-align: center;
+
+    grid-template-columns: 24% 24% 24% 24%;
+
+}
+
+.div1_1{
+    background: red;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.div1_2 {
+    background: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.div2 {
+    background: yellow;
+    grid-template-columns: 20px 20px 20px;
+}

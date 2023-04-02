@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE note [
+<!ELEMENT note (to, from, Sbj, msg)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT Sbj (#PCDATA)>
+<!ELEMENT msg (#PCDATA)>
+]>
+
+<Abody>
+<toto>Песецкий Никита Андреевич</toto>
+<h>Цитаты не великих людей</h>
+<Ap>Цитата №2:</Ap>
+<AText>Хорошо когда хорошо</AText>
+</Abody>

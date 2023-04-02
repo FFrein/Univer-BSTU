@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<AbodyMain orderid="889923" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+  <Abody>
+    <name>Песецкий Никита Андреевич</name>
+  </Abody>
+  <Wolf>
+    <title>Цитаты не великих дюдей №1: </title>
+    <AText>Волк не тот кто волк, а тот кто волк</AText>
+  </Wolf>
+</AbodyMain>

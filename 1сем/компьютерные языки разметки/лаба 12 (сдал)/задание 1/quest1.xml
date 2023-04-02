@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="quest1.xsl"?>
+<body>
+    <people>
+        <name>Боба</name>
+        <surname>БИШОН ФРИЗЕ</surname>
+        <type>3–6 кг</type>
+        <country>Франции</country>
+    </people>
+    <people>
+        <name>Пупсень</name>
+        <surname>Акита-ину</surname>
+        <type>32-45 кг</type>
+        <country>Япония</country>
+    </people>
+    <people>
+        <name>Терьер</name>
+        <surname>Кушнир</surname>
+        <type>25-31 кг </type>
+        <country>Америка</country>
+    </people>
+</body>

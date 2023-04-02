@@ -1,0 +1,38 @@
+.grid {
+        display: flex;
+        grid-gap: 5px;
+        text-align: center;
+        flex-flow: wrap;
+}
+
+.div1 {
+  color:white;
+        background: black;
+        flex-flow: wrap;
+        width: 100%;
+}
+
+.div2 {
+        background: gray;
+        padding: 25px;
+        flex-flow: wrap;
+}
+
+    article{
+      display: flex;
+      padding: 20px;
+    }
+
+    section{
+      float:left;
+      margin:auto;
+      padding:25px;
+    }
+
+    img{
+      width:75px;
+    }
+    h5 {
+      color:red;
+      background: blue;
+    }

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,IAAI,EAAE,qBAAqB;CAAG;;AAClC,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,KAAK;CAAG;;AACxB,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,MAAM;CAAG;;AACzB,AAAA,KAAK,CAAC;EACF,IAAI,EAAG,eAAe;CAAG;;AAC7B,AAAA,OAAO,AAAA,MAAM,CAAC;EACV,MAAM,EAAE,IAAI;CAAG",
+    "sources": [
+        "../task5/style5.sass"
+    ],
+    "names": [],
+    "file": "style5.css"
+}

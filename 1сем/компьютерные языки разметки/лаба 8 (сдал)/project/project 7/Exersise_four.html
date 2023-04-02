@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>One</title>
+    <style>
+      div {
+        float: left;
+      }
+
+      .container_slider_css{
+        margin:50px auto;
+        width:500px;
+        height:300px;
+        overflow:hidden;
+        position:relative
+      }
+
+      .photo_slider_css{
+        position:absolute;
+        animation:round 16s infinite;
+        opacity:0;
+        width:10%
+      }
+
+      @keyframes round {
+      25%{opacity:1}
+      40%{opacity:0}
+      }
+
+      img:nth-child(1){animation-delay:16s}
+      img:nth-child(2){animation-delay:12s}
+      img:nth-child(3){animation-delay:8s}
+      img:nth-child(4){animation-delay:4s}
+      img:nth-child(5){animation-delay:0}
+
+      @media(min-width:0px) and (max-width:320px) {
+
+      .container_slider_css{
+        width:80%;
+        height:190px
+      }
+
+      }
+      @media(min-width:321px) and (max-width:480px) {
+
+      .container_slider_css{
+        width:80%;
+        height:190px
+      }
+      }
+
+      @keyframes zagolovok{
+       0%{opacity:0}
+       80%{opacity:80%}
+       100%{opacity: 0;}
+      } 
+
+      h1{
+        animation:zagolovok 4s infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Это не заголовок, вам показалось</h1>
+      <img class="photo_slider_css" src="C:\Users\User\Desktop\компьютерные языки разметки\лаба 7\project 7\imagins\КайлоРен.png">
+      <img class="photo_slider_css" src="C:\Users\User\Desktop\компьютерные языки разметки\лаба 7\project 7\imagins\КапитанФазма.png">
+      <img class="photo_slider_css" src="C:\Users\User\Desktop\компьютерные языки разметки\лаба 7\project 7\imagins\BB08.png">
+      <img class="photo_slider_css" src="C:\Users\User\Desktop\компьютерные языки разметки\лаба 7\project 7\imagins\Фин.png">
+      <img class="photo_slider_css" src="C:\Users\User\Desktop\компьютерные языки разметки\лаба 7\project 7\imagins\ВерховныйЛидерСноук.png">
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,IAAI,EAAE,GAAG;CAAG;;AAChB,AAAA,MAAM,CAAC;EACH,IAAI,EAAE,MAAM;CAAG;;AACnB,AAAA,MAAM,CAAC;EACH,IAAI,EAAE,IAAI;CAAG",
+    "sources": [
+        "../task4/style4.sass"
+    ],
+    "names": [],
+    "file": "style4.css"
+}

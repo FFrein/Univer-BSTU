@@ -1,0 +1,11 @@
+.grid {
+    display: grid;
+    grid-gap: 5px;
+    text-align: center;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.div1_1{
+
+
+}

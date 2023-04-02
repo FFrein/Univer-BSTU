@@ -1,0 +1,58 @@
+h1 {
+	text-align: center;
+}
+
+p{
+	border: 5px solid #FFA500;
+	padding: 5px;
+
+}
+
+#div2 {
+	text-align: center;
+}
+
+#div {
+	font-size: 200%;
+	padding: 10px;
+	display: inline-block;
+	border-width: 5px;
+	margin-top: 10px;
+}
+
+.R{
+	border-color: rgb(250, 0, 0);
+	border-style: outset;
+}
+
+.G{
+	border-color: rgb(0, 199, 37);
+	border-style: dashed;
+}
+
+.B{
+	border-color: rgb(0, 17, 199);
+	border-style: dotted;
+}
+
+.C{
+	border-color: rgb(0, 173, 199);
+	border-style: double;
+}
+
+.M{
+	border-color: rgb(197, 0, 199);
+	border-style: groove;
+}
+
+.Y{
+	border-color: rgb(237, 255, 0);
+	border-style: inset;
+}
+
+.K{
+	border-color: rgb(0, 0, 0);
+	border-style: solid;
+}
+
+span { background-color: #8ABB55; }

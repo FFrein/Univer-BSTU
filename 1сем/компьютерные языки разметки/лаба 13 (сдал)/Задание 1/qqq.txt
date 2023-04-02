@@ -1,0 +1,32 @@
+<div>
+<p><span id="name"></span></p>
+<p><span id="surname"></span></p>
+<p><span id="date_of_birth"></span></p>
+<p><span id="facultet"></span></p>
+</div>
+
+<script>
+txt="<student>";
+txt=txt+"<name>Никита</name>";
+txt=txt+"<surname>Песецкий</surname>";
+txt=txt+"<date_of_birth>21.3.2003</date_of_birth>";
+txt=txt+"<facultet>ФИТ</facultet>";
+txt=txt+"</student>";
+
+if(window.DOMParser)
+{
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(txt,"text/xml");
+}
+else //Internet Explorer
+{
+xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+xmlDoc.async=false;
+xmlDoc.loadXML(txt);
+}
+document.getElementById("name").innerHTML=xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+document.getElementById("surname").innerHTML=xmlDoc.getElementsByTagName("surname")[0].childNodes[0].nodeValue;
+document.getElementById("date_of_birth").innerHTML=xmlDoc.getElementsByTagName("date_of_birth")[0].childNodes[0].nodeValue;
+document.getElementById("facultet").innerHTML=xmlDoc.getElementsByTagName("facultet")[0].childNodes[0].nodeValue;
+
+</script>

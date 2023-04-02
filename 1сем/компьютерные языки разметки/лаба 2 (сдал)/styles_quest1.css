@@ -1,0 +1,34 @@
+body {
+				background: #A62800 url(jedai.jpg); /* Параметры фона */
+				background-attachment: fixed;
+				background-size: cover;
+				max-width: 1400px;
+				margin: auto;
+				}
+
+h1, h2, h3, h4, h5 {
+	color: purple;
+	font-family: Monotype Corsiva;
+}
+
+.ul1{
+	color: red;
+	font-size: 18pt;
+	font-family: Times New Roman;
+	list-style-type: disc;
+}
+
+.ul2{
+	color: yellow;
+	font-size: 20pt;
+	font-family: Times New Roman;
+	list-style-type: circle;
+}
+
+.ul3{
+	color: green;
+	font-size: 22pt;
+	font-family: Times New Roman;
+	list-style-type: square; /*свойство для изменения типа списка*/
+}
+

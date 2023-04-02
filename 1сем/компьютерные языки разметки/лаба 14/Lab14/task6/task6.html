@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Задание 6</title>
+</head>
+<body bgcolor="#006363">
+<h1 style="text-align: center; color: red;">Масштабируемая векторная графика (Scalable Vector Graphics, SVG)</h1>
+<h2>К преимуществам SVG-изображений относится:</h2>
+<p style="text-indent: 25px"><font size="5" color="yellow" face="Verdana">
+  1. Отсутствие потери качестве при масштабировании.
+  2. Могут создаваться и редактироваться в любом текстовом редакторе
+  3. Совместимость со стандартами консорциума W3C: DOM и XSL.
+  4. Размеры их файлов являются небольшими по сравнению с любым
+  другим типом файлов изображений.
+  <span style="color: palevioletred; font-weight: bold;">5. Можно добавлять несколько гиперссылок.</span>.
+  6. Поддержка скриптов и анимац
+</font></p>
+
+<h2>Существуют следующие способы использования svg в веб-бразерах:</h2>
+<p style="text-indent: 25px"><font size="6" color="blue" face="Times New Roman">
+  1. Подключение SVG-файла в HTML-документ с помощью тегов img,
+  embed, object и iframe
+</font></p>
+
+<h2><a href="Лаба1_2.html">Основные элементы SVG</a></h2>
+<p style="text-indent: 25px"><font size="7" color="brown" face="Comic_Sans">
+line (прямая линия) — <span style="color: indigo; font-style: bold;">самый известный профессиональный теннисист Беларуси</span>. Особого успеха добился в парном разряде, сорвав серию международных наград. Вывел белорусскую сборную на лучшее место за всю её историю на Кубке Дэвиса. Заслуженный мастер спорта, бывшая первая ракетка мира в парном разряде, олимпийский чемпион в миксте.
+</font></p>
+
+<h2>Работа с текстом</h2>
+<ol>
+<li> <font size="5"> Текст в элементе SVG определяется с помощью тега <text>. К
+специфическим атрибутам, используемым в text относятся:
+<ul>
+<li type="disc">1. х и y – базовая линия текста</li>
+<li type="disc">2. dx и dy – размещение текстовых областей относительно друг друга</li>
+</ul>
+</li>
+</font>
+
+<li> <font size="5"> Работа с текстом
+<ul>
+<li type="square"> text-anchor – выравнивание текстовой строки относительно точки (x,
+y). Может принимать значения start, middle, end</li>
+<li type="square">4. rotate – поворот текста transform=”rotate(30 20, 40)”</li>
+<li type="square">5. textLength – ширина текстовой области</li>
+</ul>
+</li>
+</font>
+
+<li> <font size="5"> Работа с текстом
+<ul>
+<li>6. lengthAdjust – сжатие и растягивание текста, используется вместе с
+атрибутом textLength. Может принимать значения spacing и
+spacingAndGlyphs.</li>
+</ul>
+</li>
+</font>
+</ol>
+
+<h2 align=center>Таблица</h2>
+<table border="1" width="100%" cellpadding="5" style="text-align: center;">
+<tr>
+  <td>1</td>
+  <td colspan="3">1</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td colspan="3">1</td>
+</tr>
+<tr>
+  <td rowspan="6"><a href="Лаба1_2.html">3</a></td>
+  <td>2</td>
+</tr>
+
+</table>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" >
+    <a href="C:\Users\Frein\Desktop\компьютерные языки разметки\Лаба 1 (сдал)\quest1.html" target="_blank">
+    <circle id="cir" cx="50" cy="60" r="45" fill="lime"/>
+    </a>
+    <a href="C:\Users\Frein\Desktop\компьютерные языки разметки\Лаба 1 (сдал)\quest2.html" target="_blank">
+    <circle id="cir" cx="160" cy="60" r="45" fill="purple"/>
+    </a>
+    <a href="C:\Users\Frein\Desktop\компьютерные языки разметки\Лаба 1 (сдал)\quest4.html" target="_blank">
+    <circle id="cir" cx="270" cy="60" r="45" fill="darkred"/>
+    </a>
+    <a href="C:\Users\Frein\Desktop\компьютерные языки разметки\Лаба 1 (сдал)\quest5.html" target="_blank">
+    <circle id="cir" cx="380" cy="60" r="45" fill="cyan"/>
+    </a>
+    </svg>
+</body>
+</html>

@@ -1,0 +1,52 @@
+h1 {
+	text-align: center;
+}
+
+p{
+	border: 5px solid #FFA500;
+	padding: 5px;
+
+}
+
+#div2 {
+	text-align: center;
+}
+
+#div {
+	font-size: 200%;
+	padding: 100px;
+	display: inline-block;
+	border-width: 1px;
+	margin-top: 10px;
+}
+
+.R{
+	border-style: outset;
+	background-image: linear-gradient(to top, red, blue);
+}
+
+.G{
+	border-style: outset;
+	background-image: repeating-linear-gradient(45deg, red 20%, blue 30%, red 20%)
+}
+
+.B{
+	border-style: outset;
+	background-image: radial-gradient(yellow, green);
+}
+
+.C{
+	border-style: outset;
+	background-image: repeating-radial-gradient(circle at center center, green, green, 10px, yellow 10px, yellow 20px);
+}
+
+.M{
+	border-style: outset;
+	background-image: radial-gradient(yellow, green, transparent), linear-gradient(blue,magenta);
+
+}
+
+.Y{
+	border-style: outset;
+	background-image: linear-gradient(to right, yellow, green, transparent 50%), linear-gradient(to top, red, blue, white, gray, black);
+}

@@ -1,0 +1,41 @@
+.grid {
+    display: grid;
+    grid-gap: 5px;
+    text-align: center;
+    grid-template-columns: 10% 30% 30% 30%;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+}
+
+.Nav {
+    background: gray;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.Content_Header {
+    background: gray;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.Content_Article {
+    background: gray;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.Content_Aside {
+    background: gray;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.Content_Footer {
+    background: gray;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
