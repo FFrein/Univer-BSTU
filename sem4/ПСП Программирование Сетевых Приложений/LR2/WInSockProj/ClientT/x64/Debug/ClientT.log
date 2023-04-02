@@ -1,0 +1,4 @@
+﻿  ClientMainFile.cpp
+F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR2\WInSockProj\ClientT\ClientMainFile.cpp(48,16): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR2\WInSockProj\ClientT\ClientMainFile.cpp(61,12): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  ClientT.vcxproj -> F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR2\WInSockProj\x64\Debug\ClientT.exe

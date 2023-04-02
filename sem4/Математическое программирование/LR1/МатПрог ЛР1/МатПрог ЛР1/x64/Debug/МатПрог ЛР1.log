@@ -1,0 +1,8 @@
+﻿  Main.cpp
+F:\MyFile\Универ\4sem\Математическое программирование\LR1\МатПрог ЛР1\МатПрог ЛР1\pch.h(21,6): warning C4273: srand: несовместимое связывание dll
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdlib.h(350,23): message : см. предыдущее определение "srand"
+F:\MyFile\Универ\4sem\Математическое программирование\LR1\МатПрог ЛР1\МатПрог ЛР1\pch.h(28,5): warning C4273: rand: несовместимое связывание dll
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdlib.h(352,37): message : см. предыдущее определение "rand"
+F:\MyFile\Универ\4sem\Математическое программирование\LR1\МатПрог ЛР1\МатПрог ЛР1\pch.h(44,9): warning C4273: clock: несовместимое связывание dll
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\time.h(142,26): message : см. предыдущее определение "clock"
+  МатПрог ЛР1.vcxproj -> F:\MyFile\Универ\4sem\Математическое программирование\LR1\МатПрог ЛР1\x64\Debug\МатПрог ЛР1.exe

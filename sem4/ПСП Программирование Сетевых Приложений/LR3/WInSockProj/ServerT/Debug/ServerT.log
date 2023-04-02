@@ -1,0 +1,3 @@
+﻿  ServerMainFile.cpp
+F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR2\WInSockProj\ServerT\ServerMainFile.cpp(7,38): warning C4081: требуется "newline"; обнаружен "константа"
+F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR2\WInSockProj\ServerT\ServerMainFile.cpp(19,28): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings

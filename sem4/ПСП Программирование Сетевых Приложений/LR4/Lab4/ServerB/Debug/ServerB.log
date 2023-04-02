@@ -1,0 +1,4 @@
+﻿  ServerB.cpp
+F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR4\Lab4\ServerB\ServerB.cpp(82,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR4\Lab4\ServerB\ServerB.cpp(146,12): warning C4101: addr: неиспользованная локальная переменная
+  ServerB.vcxproj -> F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR4\Lab4\Debug\ServerB.exe

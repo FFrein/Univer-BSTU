@@ -1,0 +1,3 @@
+﻿  ServerMainFile.cpp
+F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR2\WInSockProj\ServerT\ServerMainFile.cpp(84,20): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  ServerT.vcxproj -> F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR2\WInSockProj\x64\Debug\ServerT.exe

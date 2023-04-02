@@ -1,0 +1,8 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: два или более файлов с именем main.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — ..\main.cpp, main.cpp.
+  main.cpp
+c1xx : fatal  error C1083: Не удается открыть файл источник: ..\main.cpp: No such file or directory,
+  main.cpp
+F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR2\WInSockProj\dop\main.cpp(58,16): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR2\WInSockProj\dop\main.cpp(43,14): warning C4101: obuf: неиспользованная локальная переменная
+F:\MyFile\Универ\4sem\ПСП Программирование Сетевых Приложений\LR2\WInSockProj\dop\main.cpp(42,14): warning C4101: ibuf: неиспользованная локальная переменная
+  Создание кода...
