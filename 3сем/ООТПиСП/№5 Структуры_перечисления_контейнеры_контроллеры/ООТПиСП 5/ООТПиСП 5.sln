@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "№ 5 Структуры, перечисления, классы контейнеры", "№ 5 Структуры, перечисления, классы контейнеры\№ 5 Структуры, перечисления, классы контейнеры.csproj", "{5EDD6504-70AD-4E15-9636-F84CC784019A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EDD6504-70AD-4E15-9636-F84CC784019A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EDD6504-70AD-4E15-9636-F84CC784019A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EDD6504-70AD-4E15-9636-F84CC784019A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EDD6504-70AD-4E15-9636-F84CC784019A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C20D6CA-1AA7-400F-870F-4E51BA8BC79A}
+	EndGlobalSection
+EndGlobal

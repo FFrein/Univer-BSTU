@@ -1,0 +1,7 @@
+D:\СЕССИЯ\ООП\primer\primer\bin\Debug\primer.exe.config
+D:\СЕССИЯ\ООП\primer\primer\bin\Debug\primer.exe
+D:\СЕССИЯ\ООП\primer\primer\bin\Debug\primer.pdb
+D:\СЕССИЯ\ООП\primer\primer\obj\Debug\primer.csprojAssemblyReference.cache
+D:\СЕССИЯ\ООП\primer\primer\obj\Debug\primer.csproj.CoreCompileInputs.cache
+D:\СЕССИЯ\ООП\primer\primer\obj\Debug\primer.exe
+D:\СЕССИЯ\ООП\primer\primer\obj\Debug\primer.pdb

@@ -1,0 +1,13 @@
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\bin\Debug\netcoreapp3.1\Podliva.exe
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\bin\Debug\netcoreapp3.1\Podliva.deps.json
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\bin\Debug\netcoreapp3.1\Podliva.runtimeconfig.json
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\bin\Debug\netcoreapp3.1\Podliva.runtimeconfig.dev.json
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\bin\Debug\netcoreapp3.1\Podliva.dll
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\bin\Debug\netcoreapp3.1\Podliva.pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\obj\Debug\netcoreapp3.1\Podliva.csprojAssemblyReference.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\obj\Debug\netcoreapp3.1\Podliva.AssemblyInfoInputs.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\obj\Debug\netcoreapp3.1\Podliva.AssemblyInfo.cs
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\obj\Debug\netcoreapp3.1\Podliva.csproj.CoreCompileInputs.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\obj\Debug\netcoreapp3.1\Podliva.dll
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\obj\Debug\netcoreapp3.1\Podliva.pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\8-1\Podliva\Podliva\obj\Debug\netcoreapp3.1\Podliva.genruntimeconfig.cache

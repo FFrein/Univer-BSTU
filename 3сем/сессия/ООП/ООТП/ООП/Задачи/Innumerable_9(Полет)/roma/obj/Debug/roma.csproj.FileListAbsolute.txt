@@ -1,0 +1,14 @@
+D:\СЕССИЯ\ООП\roma\roma\obj\Debug\roma.csprojAssemblyReference.cache
+D:\СЕССИЯ\ООП\roma\roma\obj\Debug\roma.csproj.CoreCompileInputs.cache
+D:\СЕССИЯ\ООП\roma\roma\bin\Debug\roma.exe.config
+D:\СЕССИЯ\ООП\roma\roma\bin\Debug\roma.exe
+D:\СЕССИЯ\ООП\roma\roma\bin\Debug\roma.pdb
+D:\СЕССИЯ\ООП\roma\roma\obj\Debug\roma.exe
+D:\СЕССИЯ\ООП\roma\roma\obj\Debug\roma.pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_9\roma\bin\Debug\roma.exe.config
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_9\roma\bin\Debug\roma.exe
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_9\roma\bin\Debug\roma.pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_9\roma\obj\Debug\roma.csprojAssemblyReference.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_9\roma\obj\Debug\roma.csproj.CoreCompileInputs.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_9\roma\obj\Debug\roma.exe
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_9\roma\obj\Debug\roma.pdb

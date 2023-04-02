@@ -1,0 +1,15 @@
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\bin\Debug\net6.0\3-2.exe
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\bin\Debug\net6.0\3-2.deps.json
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\bin\Debug\net6.0\3-2.runtimeconfig.json
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\bin\Debug\net6.0\3-2.dll
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\bin\Debug\net6.0\3-2.pdb
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\obj\Debug\net6.0\3-2.csproj.AssemblyReference.cache
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\obj\Debug\net6.0\3-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\obj\Debug\net6.0\3-2.AssemblyInfoInputs.cache
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\obj\Debug\net6.0\3-2.AssemblyInfo.cs
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\obj\Debug\net6.0\3-2.csproj.CoreCompileInputs.cache
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\obj\Debug\net6.0\3-2.dll
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\obj\Debug\net6.0\refint\3-2.dll
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\obj\Debug\net6.0\3-2.pdb
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\obj\Debug\net6.0\3-2.genruntimeconfig.cache
+C:\MyFile\Универ\3сем\сессия\ООП\Подготовка в Сессии\3-2\obj\Debug\net6.0\ref\3-2.dll

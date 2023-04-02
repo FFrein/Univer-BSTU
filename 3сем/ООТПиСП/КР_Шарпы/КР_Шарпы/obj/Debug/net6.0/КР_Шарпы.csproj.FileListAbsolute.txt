@@ -1,0 +1,15 @@
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\obj\Debug\net6.0\КР_Шарпы.csproj.AssemblyReference.cache
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\obj\Debug\net6.0\КР_Шарпы.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\obj\Debug\net6.0\КР_Шарпы.AssemblyInfoInputs.cache
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\obj\Debug\net6.0\КР_Шарпы.AssemblyInfo.cs
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\obj\Debug\net6.0\КР_Шарпы.csproj.CoreCompileInputs.cache
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\bin\Debug\net6.0\КР_Шарпы.exe
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\bin\Debug\net6.0\КР_Шарпы.deps.json
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\bin\Debug\net6.0\КР_Шарпы.runtimeconfig.json
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\bin\Debug\net6.0\КР_Шарпы.dll
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\bin\Debug\net6.0\КР_Шарпы.pdb
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\obj\Debug\net6.0\КР_Шарпы.dll
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\obj\Debug\net6.0\refint\КР_Шарпы.dll
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\obj\Debug\net6.0\КР_Шарпы.pdb
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\obj\Debug\net6.0\КР_Шарпы.genruntimeconfig.cache
+C:\MyFile\Универ\3сем\ООТПиСП\КР_Шарпы\КР_Шарпы\obj\Debug\net6.0\ref\КР_Шарпы.dll

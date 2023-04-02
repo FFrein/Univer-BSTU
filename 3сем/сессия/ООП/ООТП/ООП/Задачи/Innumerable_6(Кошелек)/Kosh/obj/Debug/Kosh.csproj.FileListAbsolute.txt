@@ -1,0 +1,17 @@
+D:\СЕССИЯ\ООП\Kosh\Kosh\bin\Debug\Kosh.exe.config
+D:\СЕССИЯ\ООП\Kosh\Kosh\bin\Debug\Kosh.exe
+D:\СЕССИЯ\ООП\Kosh\Kosh\bin\Debug\Kosh.pdb
+D:\СЕССИЯ\ООП\Kosh\Kosh\obj\Debug\Kosh.csprojAssemblyReference.cache
+D:\СЕССИЯ\ООП\Kosh\Kosh\obj\Debug\Kosh.csproj.CoreCompileInputs.cache
+D:\СЕССИЯ\ООП\Kosh\Kosh\obj\Debug\Kosh.exe
+D:\СЕССИЯ\ООП\Kosh\Kosh\obj\Debug\Kosh.pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\Kosh\Kosh\bin\Debug\Kosh.exe.config
+D:\Подливка\Сессия\2.0\ООП\Задачи\Kosh\Kosh\bin\Debug\Kosh.exe
+D:\Подливка\Сессия\2.0\ООП\Задачи\Kosh\Kosh\bin\Debug\Kosh.pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\Kosh\Kosh\bin\Debug\Newtonsoft.Json.dll
+D:\Подливка\Сессия\2.0\ООП\Задачи\Kosh\Kosh\bin\Debug\Newtonsoft.Json.xml
+D:\Подливка\Сессия\2.0\ООП\Задачи\Kosh\Kosh\obj\Debug\Kosh.csprojAssemblyReference.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\Kosh\Kosh\obj\Debug\Kosh.csproj.CoreCompileInputs.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\Kosh\Kosh\obj\Debug\Kosh.csproj.CopyComplete
+D:\Подливка\Сессия\2.0\ООП\Задачи\Kosh\Kosh\obj\Debug\Kosh.exe
+D:\Подливка\Сессия\2.0\ООП\Задачи\Kosh\Kosh\obj\Debug\Kosh.pdb

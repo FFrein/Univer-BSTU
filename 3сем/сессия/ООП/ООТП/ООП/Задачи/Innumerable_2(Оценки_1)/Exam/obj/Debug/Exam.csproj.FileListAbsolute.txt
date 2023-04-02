@@ -1,0 +1,14 @@
+D:\СЕССИЯ\ООП\Exam\Exam\bin\Debug\Exam.exe.config
+D:\СЕССИЯ\ООП\Exam\Exam\bin\Debug\Exam.exe
+D:\СЕССИЯ\ООП\Exam\Exam\bin\Debug\Exam.pdb
+D:\СЕССИЯ\ООП\Exam\Exam\obj\Debug\Exam.csprojAssemblyReference.cache
+D:\СЕССИЯ\ООП\Exam\Exam\obj\Debug\Exam.csproj.CoreCompileInputs.cache
+D:\СЕССИЯ\ООП\Exam\Exam\obj\Debug\Exam.exe
+D:\СЕССИЯ\ООП\Exam\Exam\obj\Debug\Exam.pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_2\Exam\bin\Debug\Exam.exe.config
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_2\Exam\bin\Debug\Exam.exe
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_2\Exam\bin\Debug\Exam.pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_2\Exam\obj\Debug\Exam.csprojAssemblyReference.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_2\Exam\obj\Debug\Exam.csproj.CoreCompileInputs.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_2\Exam\obj\Debug\Exam.exe
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_2\Exam\obj\Debug\Exam.pdb

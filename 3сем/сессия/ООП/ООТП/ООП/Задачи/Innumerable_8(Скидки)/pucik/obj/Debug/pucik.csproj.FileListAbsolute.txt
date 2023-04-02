@@ -1,0 +1,14 @@
+D:\СЕССИЯ\ООП\pucik\pucik\bin\Debug\pucik.exe.config
+D:\СЕССИЯ\ООП\pucik\pucik\bin\Debug\pucik.exe
+D:\СЕССИЯ\ООП\pucik\pucik\bin\Debug\pucik.pdb
+D:\СЕССИЯ\ООП\pucik\pucik\obj\Debug\pucik.csprojAssemblyReference.cache
+D:\СЕССИЯ\ООП\pucik\pucik\obj\Debug\pucik.csproj.CoreCompileInputs.cache
+D:\СЕССИЯ\ООП\pucik\pucik\obj\Debug\pucik.exe
+D:\СЕССИЯ\ООП\pucik\pucik\obj\Debug\pucik.pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\pucik\pucik\bin\Debug\pucik.exe.config
+D:\Подливка\Сессия\2.0\ООП\Задачи\pucik\pucik\bin\Debug\pucik.exe
+D:\Подливка\Сессия\2.0\ООП\Задачи\pucik\pucik\bin\Debug\pucik.pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\pucik\pucik\obj\Debug\pucik.csprojAssemblyReference.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\pucik\pucik\obj\Debug\pucik.csproj.CoreCompileInputs.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\pucik\pucik\obj\Debug\pucik.exe
+D:\Подливка\Сессия\2.0\ООП\Задачи\pucik\pucik\obj\Debug\pucik.pdb

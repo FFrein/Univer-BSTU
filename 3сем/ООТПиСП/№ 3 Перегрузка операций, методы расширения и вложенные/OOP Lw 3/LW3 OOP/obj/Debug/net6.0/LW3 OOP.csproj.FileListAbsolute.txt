@@ -1,0 +1,15 @@
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\obj\Debug\net6.0\LW3 OOP.csproj.AssemblyReference.cache
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\obj\Debug\net6.0\LW3 OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\obj\Debug\net6.0\LW3 OOP.AssemblyInfoInputs.cache
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\obj\Debug\net6.0\LW3 OOP.AssemblyInfo.cs
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\obj\Debug\net6.0\LW3 OOP.csproj.CoreCompileInputs.cache
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\bin\Debug\net6.0\LW3 OOP.exe
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\bin\Debug\net6.0\LW3 OOP.deps.json
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\bin\Debug\net6.0\LW3 OOP.runtimeconfig.json
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\bin\Debug\net6.0\LW3 OOP.dll
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\bin\Debug\net6.0\LW3 OOP.pdb
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\obj\Debug\net6.0\LW3 OOP.dll
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\obj\Debug\net6.0\refint\LW3 OOP.dll
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\obj\Debug\net6.0\LW3 OOP.pdb
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\obj\Debug\net6.0\LW3 OOP.genruntimeconfig.cache
+C:\MyFile\work\3 сем\ООТПиСП\№ 3 Перегрузка операций, методы расширения и вложенные\OOP Lw 3\LW3 OOP\obj\Debug\net6.0\ref\LW3 OOP.dll

@@ -1,0 +1,13 @@
+D:\СЕССИЯ\ООП\3-2\3-2\bin\Debug\3-2.exe.config
+D:\СЕССИЯ\ООП\3-2\3-2\bin\Debug\3-2.exe
+D:\СЕССИЯ\ООП\3-2\3-2\bin\Debug\3-2.pdb
+D:\СЕССИЯ\ООП\3-2\3-2\obj\Debug\3-2.csprojAssemblyReference.cache
+D:\СЕССИЯ\ООП\3-2\3-2\obj\Debug\3-2.csproj.CoreCompileInputs.cache
+D:\СЕССИЯ\ООП\3-2\3-2\obj\Debug\3-2.exe
+D:\СЕССИЯ\ООП\3-2\3-2\obj\Debug\3-2.pdb
+D:\2 КУРС\3 СЕМЕСТР\СЕССИЯ\ООП\3-2\3-2\bin\Debug\3-2.exe.config
+D:\2 КУРС\3 СЕМЕСТР\СЕССИЯ\ООП\3-2\3-2\bin\Debug\3-2.exe
+D:\2 КУРС\3 СЕМЕСТР\СЕССИЯ\ООП\3-2\3-2\bin\Debug\3-2.pdb
+D:\2 КУРС\3 СЕМЕСТР\СЕССИЯ\ООП\3-2\3-2\obj\Debug\3-2.csprojAssemblyReference.cache
+D:\2 КУРС\3 СЕМЕСТР\СЕССИЯ\ООП\3-2\3-2\obj\Debug\3-2.exe
+D:\2 КУРС\3 СЕМЕСТР\СЕССИЯ\ООП\3-2\3-2\obj\Debug\3-2.pdb

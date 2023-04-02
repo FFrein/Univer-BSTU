@@ -1,0 +1,30 @@
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.csproj.AssemblyReference.cache
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.AssemblyInfoInputs.cache
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.AssemblyInfo.cs
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.csproj.CoreCompileInputs.cache
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\bin\Debug\net6.0\ООТПиСП 6.exe
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\bin\Debug\net6.0\ООТПиСП 6.deps.json
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\bin\Debug\net6.0\ООТПиСП 6.runtimeconfig.json
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\bin\Debug\net6.0\ООТПиСП 6.dll
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\bin\Debug\net6.0\ООТПиСП 6.pdb
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.dll
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\refint\ООТПиСП 6.dll
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.pdb
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.genruntimeconfig.cache
+C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ref\ООТПиСП 6.dll
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\bin\Debug\net6.0\ООТПиСП 6.exe
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\bin\Debug\net6.0\ООТПиСП 6.deps.json
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\bin\Debug\net6.0\ООТПиСП 6.runtimeconfig.json
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\bin\Debug\net6.0\ООТПиСП 6.dll
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\bin\Debug\net6.0\ООТПиСП 6.pdb
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.csproj.AssemblyReference.cache
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.AssemblyInfoInputs.cache
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.AssemblyInfo.cs
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.csproj.CoreCompileInputs.cache
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.dll
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\refint\ООТПиСП 6.dll
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.pdb
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ООТПиСП 6.genruntimeconfig.cache
+C:\MyFile\Универ\3сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\obj\Debug\net6.0\ref\ООТПиСП 6.dll

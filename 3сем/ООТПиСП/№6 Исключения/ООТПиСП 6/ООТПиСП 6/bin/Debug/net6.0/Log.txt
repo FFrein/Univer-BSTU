@@ -1,0 +1,30 @@
+Время: 03.10.2022 16:55:26
+Исключение: Incorrect age
+Метод: Void set_age(Int32)
+Место:    at ООТПиСП_6.Person.set_age(Int32 value) in C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\Person.cs:line 22
+   at ООТПиСП_6.Person..ctor(Int32 age, String name) in C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\Person.cs:line 31
+   at ООТПиСП_6.Home.Main(String[] args) in C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\Program.cs:line 67
+
+Время: 03.10.2022 16:55:26
+Исключение: Attempted to divide by zero.
+Метод: Void Main(System.String[])
+Место:    at ООТПиСП_6.Home.Main(String[] args) in C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\Program.cs:line 83
+
+Время: 03.10.2022 16:55:26
+Исключение: Index was outside the bounds of the array.
+Метод: Void Main(System.String[])
+Место:    at ООТПиСП_6.Home.Main(String[] args) in C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\Program.cs:line 100
+
+Время: 03.10.2022 16:55:26
+Исключение: Could not find file 'C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\bin\Debug\net6.0\123'.
+Метод: Int64 get_Length()
+Место:    at System.IO.FileInfo.get_Length()
+   at ООТПиСП_6.Home.Main(String[] args) in C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\Program.cs:line 113
+
+Время: 03.10.2022 16:55:26
+Исключение: Attempted to divide by zero.
+Метод: Void Method2()
+Место:    at ООТПиСП_6.TestClass.Method2() in C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\Program.cs:line 38
+   at ООТПиСП_6.TestClass.Method1() in C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\Program.cs:line 21
+   at ООТПиСП_6.Home.Main(String[] args) in C:\MyFile\Универ\3 сем\ООТПиСП\№6 Исключения\ООТПиСП 6\ООТПиСП 6\Program.cs:line 124
+

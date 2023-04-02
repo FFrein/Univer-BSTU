@@ -1,0 +1,7 @@
+D:\СЕССИЯ\ООП\3-3\3-3\obj\Debug\3-3.csprojAssemblyReference.cache
+D:\СЕССИЯ\ООП\3-3\3-3\obj\Debug\3-3.csproj.CoreCompileInputs.cache
+D:\СЕССИЯ\ООП\3-3\3-3\bin\Debug\3-3.exe.config
+D:\СЕССИЯ\ООП\3-3\3-3\bin\Debug\3-3.exe
+D:\СЕССИЯ\ООП\3-3\3-3\bin\Debug\3-3.pdb
+D:\СЕССИЯ\ООП\3-3\3-3\obj\Debug\3-3.exe
+D:\СЕССИЯ\ООП\3-3\3-3\obj\Debug\3-3.pdb

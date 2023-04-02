@@ -1,0 +1,13 @@
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\bin\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).exe
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\bin\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).deps.json
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\bin\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).runtimeconfig.json
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\bin\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).runtimeconfig.dev.json
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\bin\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).dll
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\bin\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\obj\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).csprojAssemblyReference.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\obj\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).AssemblyInfoInputs.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\obj\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).AssemblyInfo.cs
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\obj\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).csproj.CoreCompileInputs.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\obj\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).dll
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\obj\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_13(Пользователь(Мое_решение))\Innumerable_13(Пользователь(Мое_решение))\obj\Debug\netcoreapp3.1\Innumerable_13(Пользователь(Мое_решение)).genruntimeconfig.cache

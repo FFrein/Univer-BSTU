@@ -1,0 +1,15 @@
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\bin\Debug\net6.0\Question.exe
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\bin\Debug\net6.0\Question.deps.json
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\bin\Debug\net6.0\Question.runtimeconfig.json
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\bin\Debug\net6.0\Question.dll
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\bin\Debug\net6.0\Question.pdb
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\obj\Debug\net6.0\Question.csproj.AssemblyReference.cache
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\obj\Debug\net6.0\Question.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\obj\Debug\net6.0\Question.AssemblyInfoInputs.cache
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\obj\Debug\net6.0\Question.AssemblyInfo.cs
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\obj\Debug\net6.0\Question.csproj.CoreCompileInputs.cache
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\obj\Debug\net6.0\Question.dll
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\obj\Debug\net6.0\refint\Question.dll
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\obj\Debug\net6.0\Question.pdb
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\obj\Debug\net6.0\Question.genruntimeconfig.cache
+C:\MyFile\work\3 сем\ООТПиСП\№ 2 Проектирование типов. Классы\Question\obj\Debug\net6.0\ref\Question.dll

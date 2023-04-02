@@ -1,0 +1,176 @@
+----- Протокол ----- Дата: 21.12.2022 среда 19:59:14 
+
+----- Параметры -----
+-log: in2.txt.log
+-out: out.asm
+-in: in2.txt
+
+----- Исходные данные -----
+Количество символов	: 144
+Проигнорировано		: 22
+Количество строк	: 14
+
+Шаг :Правило             Входная лента                 Стек                
+0   :S->m{N}S            m{tvi;tvi=i();p(i);~(i<l)     S$                  
+1   : SAVESTATE:          1
+1   :                    m{tvi;tvi=i();p(i);~(i<l)     m{N}S$              
+2   :                    {tvi;tvi=i();p(i);~(i<l){     {N}S$               
+3   :                    tvi;tvi=i();p(i);~(i<l){p     N}S$                
+4   :N->tY;N             tvi;tvi=i();p(i);~(i<l){p     N}S$                
+5   : SAVESTATE:          2
+5   :                    tvi;tvi=i();p(i);~(i<l){p     tY;N}S$             
+6   :                    vi;tvi=i();p(i);~(i<l){p(     Y;N}S$              
+7   :Y->vi               vi;tvi=i();p(i);~(i<l){p(     Y;N}S$              
+8   : SAVESTATE:          3
+8   :                    vi;tvi=i();p(i);~(i<l){p(     vi;N}S$             
+9   :                    i;tvi=i();p(i);~(i<l){p(i     i;N}S$              
+10  :                    ;tvi=i();p(i);~(i<l){p(i)     ;N}S$               
+11  :                    tvi=i();p(i);~(i<l){p(i);     N}S$                
+12  :N->tY;N             tvi=i();p(i);~(i<l){p(i);     N}S$                
+13  : SAVESTATE:          4
+13  :                    tvi=i();p(i);~(i<l){p(i);     tY;N}S$             
+14  :                    vi=i();p(i);~(i<l){p(i);i     Y;N}S$              
+15  :Y->vi               vi=i();p(i);~(i<l){p(i);i     Y;N}S$              
+16  : SAVESTATE:          5
+16  :                    vi=i();p(i);~(i<l){p(i);i     vi;N}S$             
+17  :                    i=i();p(i);~(i<l){p(i);i=     i;N}S$              
+18  :                    =i();p(i);~(i<l){p(i);i=i     ;N}S$               
+19  : TNS_NS_NORULECHAIN/NS_NORULE
+19  : RESTATE             
+19  :                    vi=i();p(i);~(i<l){p(i);i     Y;N}S$              
+20  :Y->vi=U             vi=i();p(i);~(i<l){p(i);i     Y;N}S$              
+21  : SAVESTATE:          5
+21  :                    vi=i();p(i);~(i<l){p(i);i     vi=U;N}S$           
+22  :                    i=i();p(i);~(i<l){p(i);i=     i=U;N}S$            
+23  :                    =i();p(i);~(i<l){p(i);i=i     =U;N}S$             
+24  :                    i();p(i);~(i<l){p(i);i=i#     U;N}S$              
+25  :U->i                i();p(i);~(i<l){p(i);i=i#     U;N}S$              
+26  : SAVESTATE:          6
+26  :                    i();p(i);~(i<l){p(i);i=i#     i;N}S$              
+27  :                    ();p(i);~(i<l){p(i);i=i#l     ;N}S$               
+28  : TNS_NS_NORULECHAIN/NS_NORULE
+28  : RESTATE             
+28  :                    i();p(i);~(i<l){p(i);i=i#     U;N}S$              
+29  : TNS_NS_NORULECHAIN/NS_NORULE
+29  : RESTATE             
+29  :                    vi=i();p(i);~(i<l){p(i);i     Y;N}S$              
+30  :Y->vi=i(W)          vi=i();p(i);~(i<l){p(i);i     Y;N}S$              
+31  : SAVESTATE:          5
+31  :                    vi=i();p(i);~(i<l){p(i);i     vi=i(W);N}S$        
+32  :                    i=i();p(i);~(i<l){p(i);i=     i=i(W);N}S$         
+33  :                    =i();p(i);~(i<l){p(i);i=i     =i(W);N}S$          
+34  :                    i();p(i);~(i<l){p(i);i=i#     i(W);N}S$           
+35  :                    ();p(i);~(i<l){p(i);i=i#l     (W);N}S$            
+36  :                    );p(i);~(i<l){p(i);i=i#l;     W);N}S$             
+37  : TNS_NS_NORULECHAIN/NS_NORULE
+37  : RESTATE             
+37  :                    vi=i();p(i);~(i<l){p(i);i     Y;N}S$              
+38  :Y->vi=i()           vi=i();p(i);~(i<l){p(i);i     Y;N}S$              
+39  : SAVESTATE:          5
+39  :                    vi=i();p(i);~(i<l){p(i);i     vi=i();N}S$         
+40  :                    i=i();p(i);~(i<l){p(i);i=     i=i();N}S$          
+41  :                    =i();p(i);~(i<l){p(i);i=i     =i();N}S$           
+42  :                    i();p(i);~(i<l){p(i);i=i#     i();N}S$            
+43  :                    ();p(i);~(i<l){p(i);i=i#l     ();N}S$             
+44  :                    );p(i);~(i<l){p(i);i=i#l;     );N}S$              
+45  :                    ;p(i);~(i<l){p(i);i=i#l;}     ;N}S$               
+46  :                    p(i);~(i<l){p(i);i=i#l;}}     N}S$                
+47  :N->p(W);N           p(i);~(i<l){p(i);i=i#l;}}     N}S$                
+48  : SAVESTATE:          6
+48  :                    p(i);~(i<l){p(i);i=i#l;}}     p(W);N}S$           
+49  :                    (i);~(i<l){p(i);i=i#l;}}$     (W);N}S$            
+50  :                    i);~(i<l){p(i);i=i#l;}}$      W);N}S$             
+51  :W->i                i);~(i<l){p(i);i=i#l;}}$      W);N}S$             
+52  : SAVESTATE:          7
+52  :                    i);~(i<l){p(i);i=i#l;}}$      i);N}S$             
+53  :                    );~(i<l){p(i);i=i#l;}}$       );N}S$              
+54  :                    ;~(i<l){p(i);i=i#l;}}$        ;N}S$               
+55  :                    ~(i<l){p(i);i=i#l;}}$         N}S$                
+56  :N->~K{N}N           ~(i<l){p(i);i=i#l;}}$         N}S$                
+57  : SAVESTATE:          8
+57  :                    ~(i<l){p(i);i=i#l;}}$         ~K{N}N}S$           
+58  :                    (i<l){p(i);i=i#l;}}$          K{N}N}S$            
+59  :K->(U<U)            (i<l){p(i);i=i#l;}}$          K{N}N}S$            
+60  : SAVESTATE:          9
+60  :                    (i<l){p(i);i=i#l;}}$          (U<U){N}N}S$        
+61  :                    i<l){p(i);i=i#l;}}$           U<U){N}N}S$         
+62  :U->i                i<l){p(i);i=i#l;}}$           U<U){N}N}S$         
+63  : SAVESTATE:          10
+63  :                    i<l){p(i);i=i#l;}}$           i<U){N}N}S$         
+64  :                    <l){p(i);i=i#l;}}$            <U){N}N}S$          
+65  :                    l){p(i);i=i#l;}}$             U){N}N}S$           
+66  :U->l                l){p(i);i=i#l;}}$             U){N}N}S$           
+67  : SAVESTATE:          11
+67  :                    l){p(i);i=i#l;}}$             l){N}N}S$           
+68  :                    ){p(i);i=i#l;}}$              ){N}N}S$            
+69  :                    {p(i);i=i#l;}}$               {N}N}S$             
+70  :                    p(i);i=i#l;}}$                N}N}S$              
+71  :N->p(W);N           p(i);i=i#l;}}$                N}N}S$              
+72  : SAVESTATE:          12
+72  :                    p(i);i=i#l;}}$                p(W);N}N}S$         
+73  :                    (i);i=i#l;}}$                 (W);N}N}S$          
+74  :                    i);i=i#l;}}$                  W);N}N}S$           
+75  :W->i                i);i=i#l;}}$                  W);N}N}S$           
+76  : SAVESTATE:          13
+76  :                    i);i=i#l;}}$                  i);N}N}S$           
+77  :                    );i=i#l;}}$                   );N}N}S$            
+78  :                    ;i=i#l;}}$                    ;N}N}S$             
+79  :                    i=i#l;}}$                     N}N}S$              
+80  :N->i=E;N            i=i#l;}}$                     N}N}S$              
+81  : SAVESTATE:          14
+81  :                    i=i#l;}}$                     i=E;N}N}S$          
+82  :                    =i#l;}}$                      =E;N}N}S$           
+83  :                    i#l;}}$                       E;N}N}S$            
+84  :E->iM               i#l;}}$                       E;N}N}S$            
+85  : SAVESTATE:          15
+85  :                    i#l;}}$                       iM;N}N}S$           
+86  :                    #l;}}$                        M;N}N}S$            
+87  :M->#E               #l;}}$                        M;N}N}S$            
+88  : SAVESTATE:          16
+88  :                    #l;}}$                        #E;N}N}S$           
+89  :                    l;}}$                         E;N}N}S$            
+90  :E->lM               l;}}$                         E;N}N}S$            
+91  : SAVESTATE:          17
+91  :                    l;}}$                         lM;N}N}S$           
+92  :                    ;}}$                          M;N}N}S$            
+93  :M->                 ;}}$                          M;N}N}S$            
+94  : SAVESTATE:          18
+94  :                    ;}}$                          ;N}N}S$             
+95  :                    }}$                           N}N}S$              
+96  :N->                 }}$                           N}N}S$              
+97  : SAVESTATE:          19
+97  :                    }}$                           }N}S$               
+98  :                    }$                            N}S$                
+99  :N->                 }$                            N}S$                
+100 : SAVESTATE:          20
+100 :                    }$                            }S$                 
+101 :                    $                             S$                  
+102 :S->                 $                             S$                  
+103 : SAVESTATE:          21
+103 :                    $                             $                   
+104 :                                                                      
+105 : LENTA_END           
+106 : ------>LENTA_END    
+------------------------------------------------------------------------------------------   ------
+0   всего строк 40, синтаксический анализ выполнен без ошибок
+0   : S->m{N}S            
+2   : N->tY;N             
+3   : Y->vi               
+6   : N->tY;N             
+7   : Y->vi=i()           
+14  : N->p(W);N           
+16  : W->i                
+19  : N->~K{N}N           
+20  : K->(U<U)            
+21  : U->i                
+23  : U->l                
+26  : N->p(W);N           
+28  : W->i                
+31  : N->i=E;N            
+33  : E->iM               
+34  : M->#E               
+35  : E->lM               
+36  : M->                 
+37  : N->                 
+38  : N->                 
+39  : S->                 

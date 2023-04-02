@@ -1,0 +1,15 @@
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\bin\Debug\net6.0\10 LINQ.exe
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\bin\Debug\net6.0\10 LINQ.deps.json
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\bin\Debug\net6.0\10 LINQ.runtimeconfig.json
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\bin\Debug\net6.0\10 LINQ.dll
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\bin\Debug\net6.0\10 LINQ.pdb
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\obj\Debug\net6.0\10 LINQ.csproj.AssemblyReference.cache
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\obj\Debug\net6.0\10 LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\obj\Debug\net6.0\10 LINQ.AssemblyInfoInputs.cache
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\obj\Debug\net6.0\10 LINQ.AssemblyInfo.cs
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\obj\Debug\net6.0\10 LINQ.csproj.CoreCompileInputs.cache
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\obj\Debug\net6.0\10 LINQ.dll
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\obj\Debug\net6.0\refint\10 LINQ.dll
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\obj\Debug\net6.0\10 LINQ.pdb
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\obj\Debug\net6.0\10 LINQ.genruntimeconfig.cache
+C:\MyFile\Универ\3сем\ООТПиСП\№10 LINQ\10 LINQ\10 LINQ\obj\Debug\net6.0\ref\10 LINQ.dll

@@ -1,0 +1,14 @@
+D:\C#\LabsForExam\Exersise_7\Exersise_7\bin\Debug\Exersise_7.exe.config
+D:\C#\LabsForExam\Exersise_7\Exersise_7\bin\Debug\Exersise_7.exe
+D:\C#\LabsForExam\Exersise_7\Exersise_7\bin\Debug\Exersise_7.pdb
+D:\C#\LabsForExam\Exersise_7\Exersise_7\obj\Debug\Exersise_7.csprojAssemblyReference.cache
+D:\C#\LabsForExam\Exersise_7\Exersise_7\obj\Debug\Exersise_7.csproj.CoreCompileInputs.cache
+D:\C#\LabsForExam\Exersise_7\Exersise_7\obj\Debug\Exersise_7.exe
+D:\C#\LabsForExam\Exersise_7\Exersise_7\obj\Debug\Exersise_7.pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_4(Такси)\Exersise_7\bin\Debug\Exersise_7.exe.config
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_4(Такси)\Exersise_7\bin\Debug\Exersise_7.exe
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_4(Такси)\Exersise_7\bin\Debug\Exersise_7.pdb
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_4(Такси)\Exersise_7\obj\Debug\Exersise_7.csprojAssemblyReference.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_4(Такси)\Exersise_7\obj\Debug\Exersise_7.csproj.CoreCompileInputs.cache
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_4(Такси)\Exersise_7\obj\Debug\Exersise_7.exe
+D:\Подливка\Сессия\2.0\ООП\Задачи\Innumerable_4(Такси)\Exersise_7\obj\Debug\Exersise_7.pdb

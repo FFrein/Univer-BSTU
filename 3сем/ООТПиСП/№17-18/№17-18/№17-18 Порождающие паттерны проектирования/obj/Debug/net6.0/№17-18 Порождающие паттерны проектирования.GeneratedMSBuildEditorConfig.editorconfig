@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _17_18_Порождающие_паттерны_проектирования
+build_property.ProjectDir = C:\MyFile\Универ\3сем\ООТПиСП\№17-18 Применение порождающих паттернов проектирования\№17-18 Порождающие паттерны проектирования\№17-18 Порождающие паттерны проектирования\

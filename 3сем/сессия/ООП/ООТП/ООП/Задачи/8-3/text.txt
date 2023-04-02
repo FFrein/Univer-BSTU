@@ -1,0 +1,4 @@
+roma.Air A167 37 0 ready
+roma.Air B568 0 0 stop
+roma.Air C569 245 164 fly
+Cредн€€ скорость: 162

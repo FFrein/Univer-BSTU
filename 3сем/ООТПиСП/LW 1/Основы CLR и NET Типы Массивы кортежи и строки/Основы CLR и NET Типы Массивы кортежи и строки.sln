@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Основы CLR и NET Типы Массивы кортежи и строки", "Основы CLR и NET Типы Массивы кортежи и строки\Основы CLR и NET Типы Массивы кортежи и строки.csproj", "{E1CDB1C5-149F-413D-8B65-006D44DFE526}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1CDB1C5-149F-413D-8B65-006D44DFE526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CDB1C5-149F-413D-8B65-006D44DFE526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CDB1C5-149F-413D-8B65-006D44DFE526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CDB1C5-149F-413D-8B65-006D44DFE526}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DD47263-B592-480A-AFB8-C57AB0B09B0D}
+	EndGlobalSection
+EndGlobal

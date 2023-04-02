@@ -1,0 +1,1082 @@
+Date: 14.11.2022 12:08:12
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152727851008 byte
+Total available space: 152727851008 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 0
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:08:12
+
+File Amount: 8
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+Date: 14.11.2022 12:08:51
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152712077312 byte
+Total available space: 152712077312 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 2338
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:08:12
+
+File Amount: 9
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNA.zip
+Create Time: 14.11.2022 11:51:08
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAInspect
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\UnraringFiles
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:09:21
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152705970176 byte
+Total available space: 152705970176 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 5204
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:08:51
+
+File Amount: 9
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNA.zip
+Create Time: 14.11.2022 11:51:08
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAFilesCopyed
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAInspect
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\UnraringFiles
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:10:09
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152703447040 byte
+Total available space: 152703447040 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 8308
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:09:21
+
+File Amount: 9
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNA.zip
+Create Time: 14.11.2022 11:51:08
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAFilesCopyed
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAInspect
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\UnraringFiles
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:11:05
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152707731456 byte
+Total available space: 152707731456 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 11412
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:10:09
+
+File Amount: 9
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNA.zip
+Create Time: 14.11.2022 11:51:08
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAFilesCopyed
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAInspect
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\UnraringFiles
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:11:23
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152706187264 byte
+Total available space: 152706187264 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 14517
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:11:05
+
+File Amount: 8
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAFilesCopyed
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAInspect
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\UnraringFiles
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:11:39
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152708349952 byte
+Total available space: 152708349952 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 17570
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:11:23
+
+File Amount: 8
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:11:46
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152708689920 byte
+Total available space: 152708689920 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 19914
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:11:39
+
+File Amount: 9
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNA.zip
+Create Time: 14.11.2022 11:51:08
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAInspect
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\UnraringFiles
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:12:30
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152706465792 byte
+Total available space: 152706465792 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 22781
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:11:46
+
+File Amount: 9
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNA.zip
+Create Time: 14.11.2022 11:51:08
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAFilesCopyed
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAInspect
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\UnraringFiles
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:14:43
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152706920448 byte
+Total available space: 152706920448 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 25886
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:12:30
+
+File Amount: 9
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNA.zip
+Create Time: 14.11.2022 11:51:08
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAFilesCopyed
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAInspect
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\UnraringFiles
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:14:58
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152706367488 byte
+Total available space: 152706367488 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 28991
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:14:43
+
+File Amount: 9
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNA.zip
+Create Time: 14.11.2022 11:51:08
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAFilesCopyed
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAInspect
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\UnraringFiles
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:15:16
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152709124096 byte
+Total available space: 152709124096 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 32096
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:14:58
+
+File Amount: 8
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:15:40
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152710373376 byte
+Total available space: 152710373376 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 34440
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:15:16
+
+File Amount: 8
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAInspect
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:15:53
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152708210688 byte
+Total available space: 152708210688 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 37018
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:15:40
+
+File Amount: 8
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAFilesCopyed
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAInspect
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 12:18:36
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 152705433600 byte
+Total available space: 152705433600 byte
+Total size of drive: 511325499392 byte
+Disk Name: D:\
+Drive type: Fixed
+Volume label: System Reserved
+File system: NTFS
+Available space to current user: 537411584 byte
+Total available space: 537411584 byte
+Total size of drive: 575664128 byte
+Disk Name: E:\
+Drive type: Fixed
+Volume label: 
+File system: FAT32
+Available space to current user: 23637508096 byte
+Total available space: 23637508096 byte
+Total size of drive: 104230993920 byte
+Disk Name: F:\
+Drive type: Fixed
+Volume label: Main
+File system: NTFS
+Available space to current user: 16047865856 byte
+Total available space: 16047865856 byte
+Total size of drive: 375242354688 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 39834
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:15:53
+
+File Amount: 9
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNA.zip
+Create Time: 14.11.2022 12:15:55
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAFilesCopyed
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAInspect
+Folder Name: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\UnraringFiles
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End
+
+Date: 14.11.2022 16:40:02
+Path: C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+
+Disk Name: C:\
+Drive type: Fixed
+Volume label: 
+File system: NTFS
+Available space to current user: 174048165888 byte
+Total available space: 174048165888 byte
+Total size of drive: 511325499392 byte
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0\PNAlogfile.txt
+File Name: PNAlogfile.txt
+File Lenght: 42939
+File Extension: .txt
+
+Create Time: 14.11.2022 11:51:08
+Edit Time: 14.11.2022 12:18:36
+
+File Amount: 8
+
+
+File Name: 12_Потоки_файловая система.deps.json
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.dll
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.exe
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.pdb
+Create Time: 12.11.2022 00:26:55
+File Name: 12_Потоки_файловая система.runtimeconfig.json
+Create Time: 12.11.2022 00:26:55
+File Name: file1.txt
+Create Time: 12.11.2022 00:26:58
+File Name: file2.txt
+Create Time: 12.11.2022 13:53:34
+File Name: PNAlogfile.txt
+Create Time: 14.11.2022 11:51:08
+
+
+
+C:\MyFile\Универ\3сем\ООТПиСП\№12 Потоки файловая система\12_Потоки_файловая система\12_Потоки_файловая система\bin\Debug\net6.0
+Log End

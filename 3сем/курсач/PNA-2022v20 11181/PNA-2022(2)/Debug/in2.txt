@@ -1,0 +1,13 @@
+main
+{
+	int var i;
+	
+	int var nowtime = atime();
+	print(nowtime);	
+
+	repeat(i < 5)
+	{
+     		print(i);	
+		i = i + 1;
+	}
+}

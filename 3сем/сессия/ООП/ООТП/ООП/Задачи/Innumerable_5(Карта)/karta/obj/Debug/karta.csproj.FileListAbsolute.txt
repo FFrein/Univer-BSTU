@@ -1,0 +1,7 @@
+D:\СЕССИЯ\ООП\karta\karta\bin\Debug\karta.exe.config
+D:\СЕССИЯ\ООП\karta\karta\bin\Debug\karta.exe
+D:\СЕССИЯ\ООП\karta\karta\bin\Debug\karta.pdb
+D:\СЕССИЯ\ООП\karta\karta\obj\Debug\karta.csprojAssemblyReference.cache
+D:\СЕССИЯ\ООП\karta\karta\obj\Debug\karta.csproj.CoreCompileInputs.cache
+D:\СЕССИЯ\ООП\karta\karta\obj\Debug\karta.exe
+D:\СЕССИЯ\ООП\karta\karta\obj\Debug\karta.pdb

@@ -1,0 +1,34 @@
+Name: Prod
+FullName: LW11.Prod
+Namespace: LW11
+IsValueType: False
+IsClass: True
+
+Constructors: .ctor
+Constructors: .ctor
+
+Method: Method_with_r
+	Parametr: System.Int32
+Method: Method1
+Method: Method
+Method: Method
+	Parametr: System.String
+	Parametr: System.Object
+Method: get_Current
+Method: Clone
+Method: GetEnumerator
+Method: MoveNext
+Method: Reset
+Method: GetType
+Method: ToString
+Method: Equals
+	Parametr: System.Object
+Method: GetHashCode
+
+Fields: Id
+Fields: Name
+
+Interface: IEnumerable
+Interface: IEnumerator
+Interface: ICloneable
+

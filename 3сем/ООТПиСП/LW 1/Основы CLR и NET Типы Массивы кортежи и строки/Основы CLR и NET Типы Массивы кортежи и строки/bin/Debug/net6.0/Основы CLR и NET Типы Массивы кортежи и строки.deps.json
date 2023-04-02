@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Основы CLR и NET Типы Массивы кортежи и строки/1.0.0": {
+        "runtime": {
+          "Основы CLR и NET Типы Массивы кортежи и строки.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Основы CLR и NET Типы Массивы кортежи и строки/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

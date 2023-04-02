@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Innumerable_13(Пользователь(Мое_решение))/1.0.0": {
+        "runtime": {
+          "Innumerable_13(Пользователь(Мое_решение)).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Innumerable_13(Пользователь(Мое_решение))/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

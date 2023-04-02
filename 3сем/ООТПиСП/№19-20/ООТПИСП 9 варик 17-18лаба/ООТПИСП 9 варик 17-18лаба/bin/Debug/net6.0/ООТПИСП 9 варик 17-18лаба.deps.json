@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ООТПИСП 9 варик 17-18лаба/1.0.0": {
+        "runtime": {
+          "ООТПИСП 9 варик 17-18лаба.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ООТПИСП 9 варик 17-18лаба/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
