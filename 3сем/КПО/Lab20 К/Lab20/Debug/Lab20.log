@@ -1,0 +1,21 @@
+﻿  Error.cpp
+  FST.cpp
+C:\MyFile\Универ\3сем\КПО\Lab20 К\Lab20\FST.cpp(62,37): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+  IT.cpp
+C:\MyFile\Универ\3сем\КПО\Lab20 К\Lab20\IT.cpp(79,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+C:\MyFile\Универ\3сем\КПО\Lab20 К\Lab20\IT.cpp(99,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+  In.cpp
+  LT.cpp
+  Lab20.cpp
+C:\MyFile\Универ\3сем\КПО\Lab20 К\Lab20\Lab20.cpp(19,12): warning C4102: Log: неиспользованная метка
+  LexAnalysis.cpp
+C:\MyFile\Универ\3сем\КПО\Lab20 К\Lab20\LexAnalysis.cpp(80,21): warning C4305: =: усечение из "int" в "char"
+C:\MyFile\Универ\3сем\КПО\Lab20 К\Lab20\LexAnalysis.cpp(80,17): warning C4309: =: усечение константного значения
+  Log.cpp
+  Out.cpp
+  Parm.cpp
+  Создание кода...
+C:\MyFile\Универ\3сем\КПО\Lab20 К\Lab20\LT.cpp(23): warning C4715: LT::LexTable::GetEntry: значение возвращается не при всех путях выполнения
+C:\MyFile\Универ\3сем\КПО\Lab20 К\Lab20\IT.cpp(160): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+C:\MyFile\Универ\3сем\КПО\Lab20 К\Lab20\IT.cpp(192): warning C4172: возвращение адреса локальной или временной переменной : buffer
+  Lab20.vcxproj -> C:\MyFile\Универ\3сем\КПО\Lab20 К\Debug\Lab20.exe

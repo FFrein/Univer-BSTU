@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (SE_Asm04 Serialization.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Serialization.cpp
+C:\MyFile\Универ\3 сем\КПО\SE_Asm04\SE_Asm04\SE_Asm04\Serialization.cpp(9,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  SE_Asm04.vcxproj -> C:\MyFile\Универ\3 сем\КПО\SE_Asm04\SE_Asm04\x64\Debug\SE_Asm04.exe

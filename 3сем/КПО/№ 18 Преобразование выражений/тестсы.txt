@@ -1,0 +1,8 @@
+"(a+b)*(c+d)-e";//ab+cd+*e-
+"(a+(b-g))*(c+d)-e";//abg-+cd+*e-
+"(a+c/(a+c/(a+c)))*(a+c)";//acacac+/+/+ac+*
+"(a+c)*2+2";
+"2*(a+c)-2*(2+q)*p+2";
+"q+w+e+r+t*y/s+1/(p+g)";
+"(q-w+e*r+t*y-s*k/(p+g))/z";
+"(x + (y * z + x) * z)";

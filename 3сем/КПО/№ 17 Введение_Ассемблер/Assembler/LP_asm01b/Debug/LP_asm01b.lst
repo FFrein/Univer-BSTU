@@ -1,0 +1,376 @@
+Microsoft (R) Macro Assembler Version 14.33.31630.0	    10/20/22 19:21:31
+LP_asm01b.asm						     Page 1 - 1
+
+
+				.586P																;система команд(процессор Pentium)
+				.MODEL FLAT, STDCALL												;модель памяти, соглашение о вызовах
+				includelib ucrt.lib													; библиотека времени исполнения C
+				includelib kernel32.lib												;компоновщику: компоновать с kernel32
+				includelib "..\Debug\LP_asm01a.lib"
+
+				ExitProcess			PROTO	: DWORD											;прототип функции для заверения процесса Windows
+				system				PROTO C : DWORD											;вызов cmd-команды
+				GetStdHandle		PROTO	: DWORD											;получить handle вывода на консоль
+				printConsole		PROTO : DWORD, : DWORD									;вызов процедуры вывода в консоль
+																							;(-10 ввод,-11 вывод , -12 ошибка устройства вывода)
+				WriteConsoleA		PROTO	: DWORD, : DWORD, : DWORD, : DWORD, : DWORD		;вывод на консоль(стандартная фукция)
+				SetConsoleTitleA	PROTO	: DWORD										;устанавливает заголовок окна консоли (ANSI)
+
+				getmin		PROTO : DWORD, : DWORD
+				getmax		PROTO : DWORD, : DWORD
+
+				SetConsoleOutputCP	PROTO : DWORD									;устанавливает номер входной кодовой строки
+																					;страницы для терминала
+				SetConsoleCP PROTO : DWORD											;устанавливает номер выходной кодовой страницы для терминала
+
+
+				.STACK 4096															;выделение стека
+
+ 00000000			.CONST																;сегмент констант
+ = 0000000A			endl		equ 0ah													;символ перевода строки (ANCI)
+ 00000000 0A 00			str_endl	byte endl, 0											; строка "конец строки"
+ 00000002 70 61 75 73 65	str_pause	db 'pause', 0
+	   00
+ 00000008  00000028 [		zero		byte 40 dup(0)
+	    00
+	   ]
+
+
+ 00000000			.DATA																;сегмент данных
+ 00000000 FFFFFFFB		Array			SDWORD	 -5, 5, 23, -1, 25, 9, -4, 22, 9, 0	
+	   00000005
+	   00000017
+	   FFFFFFFF
+	   00000019
+	   00000009
+	   FFFFFFFC
+	   00000016
+	   00000009
+	   00000000
+ 00000028 CB E0 E1 E0 20	consoleTitle	BYTE	'Лаба 17',0				;82h, 0e1h, 0a5h, 0a2h, 0aeh, 0abh, 0aeh, 0a4h
+	   31 37 00
+ 00000030 67 65 74 6D 61	text			BYTE	 "getmax - getmin = "
+	   78 20 2D 20 67
+	   65 74 6D 69 6E
+	   20 3D 20
+ 00000042  00000028 [		string			BYTE	 40 dup(0)
+	    00
+	   ]
+ 0000006A 4D 69 6E 20 3D	min_string		BYTE	"Min = "
+	   20
+ 00000070  00000028 [		min_str			BYTE	 40 dup(0)
+	    00
+	   ]
+ 00000098 4D 61 78 20 3D	max_string		BYTE	"Max = "
+	   20
+ 0000009E  00000028 [		max_str			BYTE	 40 dup(0)
+	    00
+	   ]
+ 000000C6 CC E0 F1 F1 E8	array_string	BYTE	"Массив:",0
+	   E2 3A 00
+
+ 000000CE 20			output1			BYTE	" "
+ 000000CF  00000028 [		array_str1		BYTE	 40 dup(0)
+	    00
+	   ]
+ 000000F7 20			output2			BYTE	" "
+ 000000F8  00000028 [		array_str2		BYTE	 40 dup(0)
+	    00
+	   ]
+ 00000120 20			output3			BYTE	" "
+ 00000121  00000028 [		array_str3		BYTE	 40 dup(0)
+	    00
+	   ]
+ 00000149 20			output4			BYTE	" "
+ 0000014A  00000028 [		array_str4		BYTE	 40 dup(0)
+	    00
+	   ]
+ 00000172 20			output5			BYTE	" "
+ 00000173  00000028 [		array_str5		BYTE	 40 dup(0)
+	    00
+	   ]
+ 0000019B 20			output6			BYTE	" "
+ 0000019C  00000028 [		array_str6		BYTE	 40 dup(0)
+	    00
+	   ]
+ 000001C4 20			output7			BYTE	" "
+ 000001C5  00000028 [		array_str7		BYTE	 40 dup(0)
+	    00
+	   ]
+ 000001ED 20			output8			BYTE	" "
+ 000001EE  00000028 [		array_str8		BYTE	 40 dup(0)
+	    00
+	   ]
+ 00000216 20			output9			BYTE	" "
+ 00000217  00000028 [		array_str9		BYTE	 40 dup(0)
+	    00
+	   ]
+ 0000023F 20			output10		BYTE	" "
+ 00000240  00000028 [		array_str10		BYTE	 40 dup(0)
+	    00
+	   ]
+
+
+ 00000268 00000000		messageSize		DWORD	?
+ 0000026C 00000000		min				SDWORD	?
+ 00000270 00000000		max				SDWORD	?
+ 00000274 00000000		result			SDWORD	?
+ 00000278
+
+ = 00000248			HW				=($ - text)											;вычисление длины строки text
+ 00000278 00000000		consolehandle	DWORD 0h											;состояние консоли
+
+ 00000000			.CODE																;сенмент кода
+
+ 00000000			int_to_char PROC uses eax ebx ecx edi esi,
+									pstr		: dword, ;адрес строки результата
+									intfield	: sdword ;число для преобразования
+
+ 00000008  8B 7D 08			mov edi, pstr
+ 0000000B  BE 00000000			mov esi, 0
+ 00000010  8B 45 0C			mov eax, intfield												;число -> в eax
+ 00000013  99				cdq
+ 00000014  85 C0			test eax, eax													;тестируем знаковый бит
+ 00000016  BB 0000000A			mov ebx, 10;
+ 0000001B  F7 FB			idiv ebx														;eax = eax/ebx, остаток в edx(деление целых со знаком)
+ 0000001D  79 09			jns plus														;если положительный то переходим на plus jz plus
+ 0000001F  F7 D8			neg eax
+ 00000021  F7 DA			neg edx
+ 00000023  B1 2D			mov cl, '-'														;первый символ результата '-'
+ 00000025  88 0F			mov [edi], cl													;первый символ результата '-'
+ 00000027  47				inc edi															;++edi
+
+ 00000028			plus:
+ 00000028  66| 52			push dx															;отстаток ->стек
+ 0000002A  46				inc esi															;++esi
+ 0000002B  85 C0			test eax, eax													;eax == 0?
+ 0000002D  74 05			jz fin															;если да то переход на fin
+ 0000002F  99				cdq																;знак расростаняется с eax на edx
+ 00000030  F7 FB			idiv ebx  
+ 00000032  EB F4			jmp plus														;безусловный переход на plus
+
+ 00000034			fin:																;если в ecx кол-во не 0-ых остатков = кол-ву символов результата
+ 00000034  8B CE			mov ecx, esi
+
+ 00000036			write:																 ;цикл записи результата
+ 00000036  66| 5B			pop bx															 ;отстаок из стека ->bx
+ 00000038  80 C3 30			add bl,'0'														 ;сформировали символ в bl
+ 0000003B  88 1F			mov [edi], bl													 ;bl -> в результат
+ 0000003D  47				inc edi
+ 0000003E  E2 F6			loop write														 ;если (--ecx)>0 переход на write
+					ret
+					
+ 00000049			int_to_char ENDP
+
+ 00000049			main PROC															;точка входа main
+ 00000049			START :																;метка
+						INVOKE SetConsoleOutputCP, 1251d
+						INVOKE SetConsoleCP, 1251d
+						;INVOKE printConsole, OFFSET text, OFFSET  consoleTitle			;вывод в консоль
+						;INVOKE printConsole, OFFSET str_endl, OFFSET  consoleTitle		;вывод в консоль
+						;------------------------------------------------
+ 0000005D  B9 0000000A				mov ecx, lengthof Array
+ 00000062  BE 00000000 R			mov esi, OFFSET Array
+						;INVOKE printConsole, OFFSET array_string, OFFSET  consoleTitle
+						;
+						;INVOKE int_to_char, OFFSET array_str1, [esi]					;начало вывода массива
+						;INVOKE printConsole, OFFSET output1, OFFSET  consoleTitle
+						;add esi, 4
+						;
+						;INVOKE int_to_char, OFFSET array_str2, [esi]
+						;INVOKE printConsole, OFFSET output2, OFFSET  consoleTitle
+						;add esi, 4
+						;
+						;INVOKE int_to_char, OFFSET array_str3, [esi]
+						;INVOKE printConsole, OFFSET output3, OFFSET  consoleTitle
+						;add esi, 4
+						;
+						;INVOKE int_to_char, OFFSET array_str4, [esi]
+						;INVOKE printConsole, OFFSET output4, OFFSET  consoleTitle
+						;add esi, 4
+						;
+						;	INVOKE int_to_char, OFFSET array_str5, [esi]
+						;INVOKE printConsole, OFFSET output5, OFFSET  consoleTitle
+						;add esi, 4
+						;
+						;INVOKE int_to_char, OFFSET array_str6, [esi]
+						;INVOKE printConsole, OFFSET output6, OFFSET  consoleTitle
+						;add esi, 4
+						;
+						;INVOKE int_to_char, OFFSET array_str7, [esi]
+						;INVOKE printConsole, OFFSET output7, OFFSET  consoleTitle
+						;add esi, 4
+						;
+						;INVOKE int_to_char, OFFSET array_str8, [esi]
+						;INVOKE printConsole, OFFSET output8, OFFSET  consoleTitle
+						;add esi, 4
+						;
+						;INVOKE int_to_char, OFFSET array_str9, [esi]
+						;INVOKE printConsole, OFFSET output9, OFFSET  consoleTitle
+						;add esi, 4
+						;
+						;INVOKE int_to_char, OFFSET array_str10, [esi]
+						;INVOKE printConsole, OFFSET output10, OFFSET  consoleTitle
+						;add esi, 4															;конец вывода массива
+						
+ 00000067			OUTPUT:
+					
+						INVOKE int_to_char, OFFSET array_str1, [esi]
+						INVOKE printConsole, OFFSET output1, OFFSET  consoleTitle
+						
+						
+ 00000082  83 C6 04				add esi, 4
+						
+ 00000085  E2 E0		loop OUTPUT
+						
+						INVOKE printConsole, OFFSET str_endl, OFFSET  consoleTitle
+						;------------------------------------------------
+						INVOKE getmin, OFFSET Array, LENGTHOF Array							;блок вывода минимального значение
+ 000000A2  A3 0000026C R			mov min, eax
+						INVOKE int_to_char, OFFSET min_str, min
+						INVOKE printConsole, OFFSET min_string, OFFSET  consoleTitle		;вывод в консоль
+						INVOKE printConsole, OFFSET str_endl, OFFSET  consoleTitle
+						;------------------------------------------------
+						INVOKE getmax, OFFSET Array, LENGTHOF Array							;блок вывода максимального значение
+ 000000E1  A3 00000270 R			mov max, eax
+						INVOKE int_to_char, OFFSET max_str, max
+						INVOKE printConsole, OFFSET max_string, OFFSET  consoleTitle		;вывод в консоль
+						INVOKE printConsole, OFFSET str_endl, OFFSET  consoleTitle
+						;------------------------------------------------
+ 00000114  2B 05 0000026C R			sub eax, min														;блок разницы между минимальным и максимальным
+ 0000011A  A3 00000274 R			mov result, eax
+						INVOKE int_to_char, OFFSET string, result
+						INVOKE printConsole, OFFSET text, OFFSET  consoleTitle		;вывод в консоль
+						INVOKE printConsole, OFFSET str_endl, OFFSET  consoleTitle
+						;------------------------------------------------
+ 0000014D  68 00000002 R			push offset str_pause										;адрес выводимой cmd-команды	
+ 00000152  E8 00000000 E			call system													;system("pause")	
+ 00000157  6A FF				push - 1													;код возврата процесса Windows(параметр ExitProcess)
+ 00000159  E8 00000000 E			call ExitProcess											;так завершается любой процесс Windows
+
+
+ 0000015E			main ENDP															;конец процедуры
+				;-----------------printConsole-------------------------------------------------------------
+ 0000015E			printConsole	 PROC uses eax ebx ecx edi esi,
+										pstr	: dword,
+										ptitle	: dword
+
+					INVOKE SetConsoleTitleA, ptitle
+					INVOKE GetStdHandle, -11
+ 00000175  8B 75 08			mov esi, pstr													;подсчет количества симвлов 
+ 00000178  BF FFFFFFFF			mov edi, -1														;до 0 символа
+ 0000017D			count:																;выводимой
+ 0000017D  47				inc edi															;на консоль строки
+ 0000017E  80 3C 3E 00			cmp byte ptr [esi+edi], 0
+ 00000182  75 F9			jne count														;если не 0-символ, на метку  count
+
+					INVOKE WriteConsoleA, eax, pstr, edi, 0, 0						;вывод в консоль
+
+					ret
+ 0000019B			printConsole ENDP
+
+
+
+				end main															;конец модуля main
+
+						
+Microsoft (R) Macro Assembler Version 14.33.31630.0	    10/20/22 19:21:31
+LP_asm01b.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CONST  . . . . . . . . . . . . .	32 Bit	 00000030 Para	  Public  'CONST'	 ReadOnly
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 0000027C Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 0000019B Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+GetStdHandle . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+SetConsoleCP . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+SetConsoleOutputCP . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+SetConsoleTitleA . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+WriteConsoleA  . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+getmax . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+getmin . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+int_to_char  . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000049 Public STDCALL
+  pstr . . . . . . . . . . . . .	DWord	 bp + 00000008
+  intfield . . . . . . . . . . .	DWord	 bp + 0000000C
+  plus . . . . . . . . . . . . .	L Near	 00000028 _TEXT	
+  fin  . . . . . . . . . . . . .	L Near	 00000034 _TEXT	
+  write  . . . . . . . . . . . .	L Near	 00000036 _TEXT	
+main . . . . . . . . . . . . . .	P Near	 00000049 _TEXT	Length= 00000115 Public STDCALL
+  START  . . . . . . . . . . . .	L Near	 00000049 _TEXT	
+  OUTPUT . . . . . . . . . . . .	L Near	 00000067 _TEXT	
+printConsole . . . . . . . . . .	P Near	 0000015E _TEXT	Length= 0000003D Public STDCALL
+  pstr . . . . . . . . . . . . .	DWord	 bp + 00000008
+  ptitle . . . . . . . . . . . .	DWord	 bp + 0000000C
+  count  . . . . . . . . . . . .	L Near	 0000017D _TEXT	
+system . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External C
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+Array  . . . . . . . . . . . . .	DWord	 00000000 _DATA	
+HW . . . . . . . . . . . . . . .	Number	 00000248h   
+array_str10  . . . . . . . . . .	Byte	 00000240 _DATA	
+array_str1 . . . . . . . . . . .	Byte	 000000CF _DATA	
+array_str2 . . . . . . . . . . .	Byte	 000000F8 _DATA	
+array_str3 . . . . . . . . . . .	Byte	 00000121 _DATA	
+array_str4 . . . . . . . . . . .	Byte	 0000014A _DATA	
+array_str5 . . . . . . . . . . .	Byte	 00000173 _DATA	
+array_str6 . . . . . . . . . . .	Byte	 0000019C _DATA	
+array_str7 . . . . . . . . . . .	Byte	 000001C5 _DATA	
+array_str8 . . . . . . . . . . .	Byte	 000001EE _DATA	
+array_str9 . . . . . . . . . . .	Byte	 00000217 _DATA	
+array_string . . . . . . . . . .	Byte	 000000C6 _DATA	
+consoleTitle . . . . . . . . . .	Byte	 00000028 _DATA	
+consolehandle  . . . . . . . . .	DWord	 00000278 _DATA	
+endl . . . . . . . . . . . . . .	Number	 0000000Ah   
+max_string . . . . . . . . . . .	Byte	 00000098 _DATA	
+max_str  . . . . . . . . . . . .	Byte	 0000009E _DATA	
+max  . . . . . . . . . . . . . .	DWord	 00000270 _DATA	
+messageSize  . . . . . . . . . .	DWord	 00000268 _DATA	
+min_string . . . . . . . . . . .	Byte	 0000006A _DATA	
+min_str  . . . . . . . . . . . .	Byte	 00000070 _DATA	
+min  . . . . . . . . . . . . . .	DWord	 0000026C _DATA	
+output10 . . . . . . . . . . . .	Byte	 0000023F _DATA	
+output1  . . . . . . . . . . . .	Byte	 000000CE _DATA	
+output2  . . . . . . . . . . . .	Byte	 000000F7 _DATA	
+output3  . . . . . . . . . . . .	Byte	 00000120 _DATA	
+output4  . . . . . . . . . . . .	Byte	 00000149 _DATA	
+output5  . . . . . . . . . . . .	Byte	 00000172 _DATA	
+output6  . . . . . . . . . . . .	Byte	 0000019B _DATA	
+output7  . . . . . . . . . . . .	Byte	 000001C4 _DATA	
+output8  . . . . . . . . . . . .	Byte	 000001ED _DATA	
+output9  . . . . . . . . . . . .	Byte	 00000216 _DATA	
+result . . . . . . . . . . . . .	DWord	 00000274 _DATA	
+str_endl . . . . . . . . . . . .	Byte	 00000000 CONST	
+str_pause  . . . . . . . . . . .	Byte	 00000002 CONST	
+string . . . . . . . . . . . . .	Byte	 00000042 _DATA	
+text . . . . . . . . . . . . . .	Byte	 00000030 _DATA	
+zero . . . . . . . . . . . . . .	Byte	 00000008 CONST	
+
+	   0 Warnings
+	   0 Errors

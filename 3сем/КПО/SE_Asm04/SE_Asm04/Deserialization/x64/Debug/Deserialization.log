@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\MyFile\Универ\3 сем\КПО\SE_Asm04\SE_Asm04\Deserialization\Source.cpp(10,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Deserialization.vcxproj -> C:\MyFile\Универ\3 сем\КПО\SE_Asm04\SE_Asm04\x64\Debug\Deserialization.exe

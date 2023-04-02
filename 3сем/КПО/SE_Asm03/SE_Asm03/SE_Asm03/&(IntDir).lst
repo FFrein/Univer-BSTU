@@ -1,0 +1,146 @@
+Microsoft (R) Macro Assembler Version 14.33.31630.0	    09/22/22 19:54:08
+main.asm						     Page 1 - 1
+
+
+				.586P														; система команд (процессор Pentium)
+				.MODEL FLAT, STDCALL										; модель памяти, соглашение о вызовах
+				includelib kernel32.lib										; компановщику: компоновать с kernel32
+
+				ExitProcess PROTO : DWORD									; прототип функции для завершения процесса Windows
+				MessageBoxA PROTO : DWORD, : DWORD, : DWORD, : DWORD		; прототип API-функции MessageBoxA
+
+				.STACK 4096													; выделение стека
+
+ 00000000			.CONST														; сегмент констант
+
+ 00000000			.DATA														; сегмент данных							; EQU определяет константу
+ 00000000 10 20 30 40			myBytes			BYTE		10h, 20h, 30h, 40h
+ 00000004 008A 003B 0044		myWords			WORD		8Ah, 3Bh, 44h, 5Fh, 99h
+	   005F 0099
+ 0000000E 00000001			myDoubles		DWORD		1, 2, 3, 4, 5, 6, 0
+	   00000002
+	   00000003
+	   00000004
+	   00000005
+	   00000006
+	   00000000
+ 0000002A 0000000E R			myPointer		DWORD		myDoubles	
+ 0000002E 00000000			Sum				DWORD	0
+
+ 00000032 D2 F0 E5 F2 FF		WINDOWNAME		db		"Третяя программа на ассемблере", 0
+	   FF 20 EF F0 EE
+	   E3 F0 E0 EC EC
+	   E0 20 ED E0 20
+	   E0 F1 F1 E5 EC
+	   E1 EB E5 F0 E5
+	   00
+ 00000051 C2 20 EC E0 F1		Res1			db		"В массиве есть 0", 0
+	   F1 E8 E2 E5 20
+	   E5 F1 F2 FC 20
+	   30 00
+ 00000062 C2 20 EC E0 F1		Res2			db		"В массиве нет нуля", 0
+	   F1 E8 E2 E5 20
+	   ED E5 F2 20 ED
+	   F3 EB FF 00
+								
+ 00000000			.CODE
+
+ 00000000			main PROC													; точка фхода main
+ 00000000			START	:													; метка
+					   
+ 00000000  8B 1D 0000002A R		mov EBX, myPointer
+ 00000006  8B 43 08			mov EAX, [EBX + 8]
+ 00000009  8B 13			mov EDX, [EBX]
+
+ 0000000B  BE 0000000E R		mov ESI, OFFSET myDoubles									;записываем ссылку на массив в регистр
+ 00000010  B9 00000007			mov ECX, lengthof myDoubles									;запись длинны массива в ECX
+ 00000015  BB 00000001			mov EBX, 1												;заносим в EBX 0 по условию задачи
+					
+ 0000001A			CYCLE:
+ 0000001A  8B 06			mov EAX, [ESI]											;достаём элемент из массива
+ 0000001C  01 05 0000002E R		add Sum, EAX
+ 00000022  83 C6 04			add ESI, type myDoubles										;сдвигаем адрресс на следующее число в массиве
+ 00000025  83 F8 00			cmp EAX, 0												;проверрка что в массиве число было не 0
+ 00000028  74 04			jz ZERO													;выполняется, если предыдущая строка выдаёт результат true
+ 0000002A  E2 EE			loop CYCLE												;--ECX, if (ECX != 0) goto CYCLE
+ 0000002C  EB 07			jmp NOZERO
+
+ 0000002E			ZERO:
+ 0000002E  BB 00000000			mov EBX, 0
+ 00000033  74 07			jz QUEST1
+
+ 00000035			NOZERO:
+ 00000035  A1 0000002E R		mov eax, Sum
+ 0000003A  75 15			jnz QUEST2
+
+ 0000003C			QUEST1:
+					invoke MessageBoxA, 0, OFFSET Res1, OFFSET WINDOWNAME, 1
+ 0000004F  74 15			jz FINAL
+
+ 00000051			QUEST2:
+					invoke MessageBoxA, 0, OFFSET Res2, OFFSET WINDOWNAME, 1
+ 00000064  74 00			jz FINAL
+
+ 00000066			FINAL:
+ 00000066  6A FF			push - 1												; код возврата процесса Windows(параметр ExitProcess)
+ 00000068  E8 00000000 E		call ExitProcess										; так завершается любой процесс Windows
+ 0000006D			main ENDP													; конец процедуры
+							
+				end main													; конец модуля main
+Microsoft (R) Macro Assembler Version 14.33.31630.0	    09/22/22 19:54:08
+main.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CONST  . . . . . . . . . . . . .	32 Bit	 00000000 Para	  Public  'CONST'	 ReadOnly
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000075 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 0000006D Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+MessageBoxA  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 0000006D Public STDCALL
+  START  . . . . . . . . . . . .	L Near	 00000000 _TEXT	
+  CYCLE  . . . . . . . . . . . .	L Near	 0000001A _TEXT	
+  ZERO . . . . . . . . . . . . .	L Near	 0000002E _TEXT	
+  NOZERO . . . . . . . . . . . .	L Near	 00000035 _TEXT	
+  QUEST1 . . . . . . . . . . . .	L Near	 0000003C _TEXT	
+  QUEST2 . . . . . . . . . . . .	L Near	 00000051 _TEXT	
+  FINAL  . . . . . . . . . . . .	L Near	 00000066 _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+Res1 . . . . . . . . . . . . . .	Byte	 00000051 _DATA	
+Res2 . . . . . . . . . . . . . .	Byte	 00000062 _DATA	
+Sum  . . . . . . . . . . . . . .	DWord	 0000002E _DATA	
+WINDOWNAME . . . . . . . . . . .	Byte	 00000032 _DATA	
+myBytes  . . . . . . . . . . . .	Byte	 00000000 _DATA	
+myDoubles  . . . . . . . . . . .	DWord	 0000000E _DATA	
+myPointer  . . . . . . . . . . .	DWord	 0000002A _DATA	
+myWords  . . . . . . . . . . . .	Word	 00000004 _DATA	
+
+	   0 Warnings
+	   0 Errors

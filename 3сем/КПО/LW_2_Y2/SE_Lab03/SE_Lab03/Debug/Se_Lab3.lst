@@ -1,0 +1,123 @@
+Microsoft (R) Macro Assembler Version 14.32.31332.0	    09/19/22 14:38:04
+Se_Lab3.asm						     Page 1 - 1
+
+
+				.586													
+
+				.MODEL FLAT, STDCALL									
+
+				includelib kernel32.lib									
+
+				ExitProcess PROTO : DWORD								
+				MessageBoxA PROTO : DWORD, : DWORD, : DWORD, : DWORD
+
+				.STACK 4096												
+
+ 00000000			.CONST													
+
+ 00000000			.DATA			
+ = 000000C8			Lenght		EQU 200
+ 00000000  000000C8 [		String		db  200 dup (?)
+	    00
+	   ]
+ = 00000000			MB_OK		EQU 0										
+ 000000C8 C2 F2 EE F0 E0	STR1		DB "Вторая программа на ассемблере", 0				
+	   FF 20 EF F0 EE
+	   E3 F0 E0 EC EC
+	   E0 20 ED E0 20
+	   E0 F1 F1 E5 EC
+	   E1 EB E5 F0 E5
+	   00
+ 000000E7 D0 E5 E7 F3 EB	STR2		DB "Результат сложения = ", 0		
+	   FC F2 E0 F2 20
+	   F1 EB EE E6 E5
+	   ED E8 FF 20 3D
+	   20 00
+ 000000FD D7 E8 F1 EB EE	STR3		DB "Число", 0	
+	   00
+ 00000103 00000000		HW			DD ?	
+ 00000107 00000003		Num1		DD 3d; d - целые десятичные числа
+ 0000010B 00000004		Num2		DD 4d
+ 0000010F 00000000		SUM			DD ?
+
+ 00000000			.CODE													
+
+ 00000000			main PROC												
+ 00000000			START :
+ 00000000  A1 00000107 R			MOV eax, Num1
+ 00000005  03 05 0000010B R			ADD eax, Num2 
+ 0000000B  A3 0000010F R			MOV SUM, eax
+
+ 00000010  66| BA 0002				mov dx,2
+ 00000014  66| B8 0000				mov ax,0 
+ 00000018  66| BB 2710				mov bx,10000
+ 0000001C  66| F7 FB				idiv    bx
+ 0000001F  66| 83 C0 30				add ax,30h
+ 00000023  66| BB 0000				mov bx,0
+ 00000027  A2 00000000 R			mov String ,al
+
+ 0000002C  6A 00				PUSH	MB_OK									
+ 0000002E  68 000000C8 R			PUSH	OFFSET STR1								
+ 00000033  68 00000000 R			PUSH	OFFSET String		
+ 00000038  FF 35 00000103 R			PUSH	HW										
+ 0000003E  E8 00000000 E			CALL	MessageBoxA	
+						;INVOKE MessageBoxA, HW, OFFSET STR2, OFFSET STR1, MB_OK
+						
+ 00000043  6A FF			push -1												
+ 00000045  E8 00000000 E		call ExitProcess									
+ 0000004A			main ENDP												
+
+				end main
+Microsoft (R) Macro Assembler Version 14.32.31332.0	    09/19/22 14:38:04
+Se_Lab3.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CONST  . . . . . . . . . . . . .	32 Bit	 00000000 Para	  Public  'CONST'	 ReadOnly
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000113 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 0000004A Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+MessageBoxA  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 0000004A Public STDCALL
+  START  . . . . . . . . . . . .	L Near	 00000000 _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+HW . . . . . . . . . . . . . . .	DWord	 00000103 _DATA	
+Lenght . . . . . . . . . . . . .	Number	 000000C8h   
+MB_OK  . . . . . . . . . . . . .	Number	 00000000h   
+Num1 . . . . . . . . . . . . . .	DWord	 00000107 _DATA	
+Num2 . . . . . . . . . . . . . .	DWord	 0000010B _DATA	
+STR1 . . . . . . . . . . . . . .	Byte	 000000C8 _DATA	
+STR2 . . . . . . . . . . . . . .	Byte	 000000E7 _DATA	
+STR3 . . . . . . . . . . . . . .	Byte	 000000FD _DATA	
+SUM  . . . . . . . . . . . . . .	DWord	 0000010F _DATA	
+String . . . . . . . . . . . . .	Byte	 00000000 _DATA	
+
+	   0 Warnings
+	   0 Errors

@@ -1,0 +1,112 @@
+Microsoft (R) Macro Assembler Version 14.33.31630.0	    09/22/22 15:08:24
+Lab_03.asm						     Page 1 - 1
+
+
+				.586P														; система команд (процессор Pentium)
+				.MODEL FLAT, STDCALL										; модель памяти, соглашение о вызовах
+				includelib kernel32.lib										; компановщику: компоновать с kernel32
+				includelib user32.lib
+				ExitProcess PROTO : DWORD									; прототип функции для завершения процесса Windows
+				MessageBoxA PROTO : DWORD, : DWORD, : DWORD, : DWORD		; прототип API-функции MessageBoxA
+
+				.STACK 4096													; выделение стека
+
+ 00000000			.CONST														; сегмент констант
+
+ 00000000			.DATA														; сегмент данных
+ = 00000000			MB_OK	EQU	0												; EQU определяет константу
+ 00000000 C2 F2 EE F0 E0	STR1	DB	"Вторая программа на ассемблере",	0									; строка, первый элемент данные + нулевой бит
+	   FF 20 EF F0 EE
+	   E3 F0 E0 EC EC
+	   E0 20 ED E0 20
+	   E0 F1 F1 E5 EC
+	   E1 EB E5 F0 E5
+	   00
+ 0000001F D0 E5 E7 F3 EB	STR2	DB	"Результат сложения = ", 0						; строка, первый элемент данные + нулевой бит
+	   FC F2 E0 F2 20
+	   F1 EB EE E6 E5
+	   ED E8 FF 20 3D
+	   20 00
+ 00000035 00000000		HW		DD	?												; двойное слово длиной 4 байта, неинициализировано
+
+ 00000039 00000003		NUMBER1	DD	3h ; 3 в HEX
+ 0000003D 00000002		NUMBER2	DD	2h
+
+ 00000000			.CODE														; сегмент кода
+
+ 00000000			main PROC													; точка фхода main
+ 00000000			START	:													; метка
+					   
+ 00000000  B8 00000000			   mov eax, 0h
+
+ 00000005  03 05 00000039 R		   add eax, NUMBER1
+ 0000000B  03 05 0000003D R		   add eax, NUMBER2
+ 00000011  83 C0 30			   add eax, 30h
+					   
+ 00000014  A2 00000034 R		   mov STR2 + 21, al ; строка + позиция, регистр со значением
+
+					   INVOKE MessageBoxA, HW, OFFSET STR2, OFFSET STR1, MB_OK
+
+ 00000030  6A FF			push - 1												; код возврата процесса Windows(параметр ExitProcess)
+ 00000032  E8 00000000 E		call ExitProcess										; так завершается любой процесс Windows
+ 00000037			main ENDP													; конец процедуры
+							
+				end main													; конец модуля main
+
+
+
+
+
+				;для компила в консоли
+				;ml /c Lab_03.asm 
+				;
+				link /out:SE_Lab02.exe /DYNAMICBASE "user32.lib" "kernel32.lib" Lab_03.obj /SUBSYSTEM:CONSOLE
+Microsoft (R) Macro Assembler Version 14.33.31630.0	    09/22/22 15:08:24
+Lab_03.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CONST  . . . . . . . . . . . . .	32 Bit	 00000000 Para	  Public  'CONST'	 ReadOnly
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000041 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 00000037 Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+MessageBoxA  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000037 Public STDCALL
+  START  . . . . . . . . . . . .	L Near	 00000000 _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+HW . . . . . . . . . . . . . . .	DWord	 00000035 _DATA	
+MB_OK  . . . . . . . . . . . . .	Number	 00000000h   
+NUMBER1  . . . . . . . . . . . .	DWord	 00000039 _DATA	
+NUMBER2  . . . . . . . . . . . .	DWord	 0000003D _DATA	
+STR1 . . . . . . . . . . . . . .	Byte	 00000000 _DATA	
+STR2 . . . . . . . . . . . . . .	Byte	 0000001F _DATA	
+
+	   0 Warnings
+	   0 Errors
