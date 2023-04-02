@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.game {
+  max-width: 1000px;
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.block-target{
+  background-image: url("wall.jpg");
+}
+
+.block-dart{
+  background-image: url("floor.jpg");
+  background-position: 180px;
+  background-size: 600px;
+  background-repeat: no-repeat;
+}
+
+.game .block-dart {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  align-items: center;
+
+}
+.game .block-target {
+  width: 100%;
+  height: 200px;
+  border-bottom: 4px solid #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.game .block-target .target {
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.Darts {
+  height: 20px;
+  width: 20px;
+  border-radius: 30px;
+  background-color: #0082aa;
+  position: absolute;
+  transition: all 0.2s ease-out;
+}/*# sourceMappingURL=index.css.map */
