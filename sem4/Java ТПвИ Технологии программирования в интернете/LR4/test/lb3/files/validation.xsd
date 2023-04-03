@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://msiter.ru" xmlns="http://msiter.ru" elementFormDefault="qualified">
+
+    <xs:element name="Container">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cardList">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Cards"  maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="number" type="xs:int" />
+                                        <xs:element name="balance" type="xs:int" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

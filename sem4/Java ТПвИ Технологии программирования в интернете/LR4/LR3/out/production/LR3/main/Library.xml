@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="LibraryValidator.xsd">
+    <Seller>Sel1</Seller>
+    <ARRAY_PM>
+        <PaperMedia>
+            <YearPublic>2000</YearPublic>
+            <Pages>386</Pages>
+            <Price>220</Price>
+            <Author>Pee</Author>
+            <PMT>Jrnl</PMT>
+            <Name>Fight Club</Name>
+        </PaperMedia>
+        <PaperMedia>
+            <YearPublic>1998</YearPublic>
+            <Pages>386</Pages>
+            <Price>120</Price>
+            <Author>Pee</Author>
+            <PMT>Book</PMT>
+            <Name>1998</Name>
+        </PaperMedia>
+        <PaperMedia>
+            <YearPublic>2023</YearPublic>
+            <Pages>13</Pages>
+            <Price>12</Price>
+            <Author>Nwsp</Author>
+            <PMT>Book</PMT>
+            <Name>Red News</Name>
+        </PaperMedia>
+    </ARRAY_PM>
+</Library>

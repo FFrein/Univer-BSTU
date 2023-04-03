@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:simpleType name="PaperMediaType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Book"></xsd:enumeration>
+      <xsd:enumeration value="Jrnl"></xsd:enumeration>
+      <xsd:enumeration value="Nwsp"></xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:element name="PaperMedia" type="PaperMedia"/>
+  <xsd:complexType name="PaperMedia">
+    <xsd:sequence>
+      <xsd:element type="xsd:string" name="YearPublic"/>
+      <xsd:element type="xsd:string" name="Pages"/>
+      <xsd:element type="xsd:string" name="Price"/>
+      <xsd:element type="xsd:string" name="Author"/>
+      <xsd:element type="PaperMediaType" name="PMT"/>
+      <xsd:element type="xsd:string" name="Name"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

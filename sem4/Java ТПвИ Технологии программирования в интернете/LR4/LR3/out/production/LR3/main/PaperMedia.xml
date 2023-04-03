@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PaperMedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="PaperMedia.xsd">
+    <YearPublic>1998</YearPublic>
+    <Pages>362</Pages>
+    <Price>120</Price>
+    <Author>NePom</Author>
+    <PMT>Book</PMT>
+    <Name>1998</Name>
+</PaperMedia>

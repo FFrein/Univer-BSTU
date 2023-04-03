@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Library" type="LibraryType"/>
+  <xs:complexType name="PaperMediaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="YearPublic"/>
+      <xs:element type="xs:string" name="Pages"/>
+      <xs:element type="xs:string" name="Price"/>
+      <xs:element type="xs:string" name="Author"/>
+      <xs:element type="xs:string" name="PMT"/>
+      <xs:element type="xs:string" name="Name"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ARRAY_PMType">
+    <xs:sequence>
+      <xs:element type="PaperMediaType" name="PaperMedia" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LibraryType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Seller"/>
+      <xs:element type="ARRAY_PMType" name="ARRAY_PM"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
