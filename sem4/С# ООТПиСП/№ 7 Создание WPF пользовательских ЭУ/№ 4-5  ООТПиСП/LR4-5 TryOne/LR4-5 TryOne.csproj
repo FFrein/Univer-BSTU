@@ -93,6 +93,11 @@
       <DependentUpon>AboutProudct.xaml</DependentUpon>
     </Compile>
     <Compile Include="Memento.cs" />
+    <Compile Include="MyControlOne.cs" />
+    <Compile Include="RoutedUICommand.cs" />
+    <Compile Include="UC_AboutProd_ImgAndTextBx.xaml.cs">
+      <DependentUpon>UC_AboutProd_ImgAndTextBx.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControl_Switcher.xaml.cs">
       <DependentUpon>UserControl_Switcher.xaml</DependentUpon>
     </Compile>
@@ -130,6 +135,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="AboutProudct.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC_AboutProd_ImgAndTextBx.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

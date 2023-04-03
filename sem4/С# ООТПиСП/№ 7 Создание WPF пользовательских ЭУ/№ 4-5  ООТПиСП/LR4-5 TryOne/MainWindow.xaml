@@ -15,6 +15,12 @@
     <Window.Resources>
         <ResourceDictionary Source="Dictionary_static.xaml" />
     </Window.Resources>
+
+   <!--LR7-->
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static local:CustomCommands.SayHello}" Executed="BTN_CstmCmd_Click"/>
+    </Window.CommandBindings>
+    <!--LR7-->
     <!-- #1975d2 акцентный цвет для слов-->
     <Grid x:Name="MenuGrid" Margin="0,0,0,-6" MinHeight="480" Style="{StaticResource GrigStyle}">
         <Grid.ColumnDefinitions>
@@ -160,7 +166,7 @@
             HorizontalAlignment="Left"
             Margin="22,73,0,0"
             Grid.Row="7"
-            VerticalAlignment="Top" Foreground="White"/>
+            VerticalAlignment="Top" Foreground="White" Checked="StyleGray_Checked"/>
         <RadioButton
             x:Name="StyleBlack"
             Content="StyleBlack"
@@ -170,6 +176,7 @@
             Margin="22,53,0,0"
             Grid.Row="7"
             VerticalAlignment="Top" Foreground="White"/>
+        
         <local:UserControl_Switcher
             x:Name="StyleSwithcer"
             Margin="121,35,22,75"
@@ -178,5 +185,13 @@
             />
         <Button x:Name="BTN_Redo" Content="Redo" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" Grid.Row="5" RenderTransformOrigin="1.09,0.652" Click="BTN_Redo_Click"/>
         <Button x:Name="BTN_Undo" Content="Undo" HorizontalAlignment="Left" Margin="63,10,0,0" VerticalAlignment="Top" Grid.Row="5" RenderTransformOrigin="1.09,0.652" Click="BTN_Undo_Click"/>
+        
+        <!--LR7-->
+        <Button
+            x:Name="BTN_CstmCmd"
+            Content="Say Hello"
+            Command="{x:Static local:CustomCommands.SayHello}" Margin="121,73,13,36" Grid.Row="7"
+        />
+        <!--LR7-->
     </Grid>
 </Window>

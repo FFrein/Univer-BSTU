@@ -1,6 +1,7 @@
 ﻿using __4_5__ООТПиСП;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,14 +23,14 @@ namespace LR4_5_TryOne
     {
         public Product OldProd;
         public Product NewProd = new Product();
-
+        private Image img;
         public AboutProduct()
         {
             InitializeComponent();
         }
         public AboutProduct(object prod)
         {
-            Image img = prod as Image;
+            img = prod as Image;
             OldProd = img.DataContext as Product;
 
             InitializeComponent();
@@ -40,9 +41,13 @@ namespace LR4_5_TryOne
             TB_Rating.Text = OldProd.rating.ToString();
             TB_Discount.Text = OldProd.discount.ToString();
             TB_Amount.Text = OldProd.amount.ToString();
-            srcIMG.Text = OldProd.srcIMG;
-            ProductImage.Source = img.Source;
             NewProd = OldProd;
+
+            IMG_INFO.InitComp();
+
+            IMG_INFO.ProductImage.Source = img.Source;
+            IMG_INFO.srcIMG.Text = OldProd.srcIMG;
+
         }
 
         private void TB_ProdName_TextChanged(object sender, TextChangedEventArgs e)
@@ -94,14 +99,57 @@ namespace LR4_5_TryOne
             NewProd.About = TB_AbProd.Text;
         }
 
-        private void srcIMG_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            NewProd.srcIMG = srcIMG.Text;
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             NewProd = null;
         }
+        //Работа с изображение
+        private void ImageEDIT_Loaded(object sender, RoutedEventArgs e)
+        {
+            if(IMG_INFO.srcIMG.Text != "TextBox")
+            {
+                try
+                {
+                    IMG_INFO.ProductImage.Source = new BitmapImage(new Uri(IMG_INFO.srcIMG.Text, UriKind.Absolute));
+                    OldProd.srcIMG = IMG_INFO.srcIMG.Text;
+                    img.Source = IMG_INFO.ProductImage.Source;
+                }
+                catch { }
+            }
+        }
+
+        private void Validate_btn_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if(MCO_Name != null &&
+                    MCO_Name.DataPrice != null && 
+                    MCO_Name.DataPrice.Length > 0
+                    )
+                    MessageBox.Show(MCO_Name.DataPrice.ToString());
+                else
+                {
+                    MessageBox.Show("Что-то не правильно заполнено");
+                }
+            }
+            catch (Exception ee)
+            {
+                MessageBox.Show(ee.Message);
+            }
+        }
+        //Exemple Bubbling events
+        private void Canvas_Button_Click(object sender, RoutedEventArgs e)
+        {
+            BE_BTN.Content = "Clicked";
+        }
+
+        //Exemple Tunneling events
+        private void Canvas_PreviewMouseUp(object sender, MouseButtonEventArgs e)
+        {
+            LBLPMU.Content = "Active Event";
+        }
+
+
+        //возможно довабить кнопку проверки объекта что бы не особо парится с постоянной перезаписью MCO
     }
 }

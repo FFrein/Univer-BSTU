@@ -22,7 +22,6 @@ namespace LR4_5_TryOne
     {
         public event RoutedEventHandler NextStyle;
 
-
         public UserControl_Switcher()
         {
             InitializeComponent();

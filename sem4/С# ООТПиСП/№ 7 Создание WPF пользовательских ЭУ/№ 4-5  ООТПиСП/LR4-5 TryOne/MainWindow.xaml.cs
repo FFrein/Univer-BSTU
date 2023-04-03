@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,18 +39,21 @@ namespace LR4_5_TryOne
             TB_Genre.Text = "Жанр";//не используется
             CB_Type.SelectedIndex = 0;
             this.Cursor= cursor;
-        }
 
+            //LR7
+            CommandBindings.Add(new CommandBinding(CustomCommands.SayHello, BTN_CstmCmd_Click));
+        }
+        //direct event
         private void TextBox_ProductName(object sender, TextChangedEventArgs e)
         {
 
         }
-
+        //direct event
         private void ComboBox_ProductType(object sender, SelectionChangedEventArgs e)
         {
 
         }
-
+        //direct event
         private void TextBox_PriceMin(object sender, TextChangedEventArgs e)
         {
 
@@ -111,7 +115,10 @@ namespace LR4_5_TryOne
                     buffer2 = buffer.GetRange(0, buffer.Count);
                     buffer.Clear();
                 }
-
+            }
+            catch { }
+            try
+            {
                 if (TB_MaxPrice.Text != "Max")
                 {
                     foreach (Product p in buffer2)
@@ -126,6 +133,7 @@ namespace LR4_5_TryOne
                 }
             }
             catch { }
+
             Add_Object(buffer2);
         }
 
@@ -233,6 +241,7 @@ namespace LR4_5_TryOne
 
         }
 
+        //Стилизатор
         private void StyleSwithcer_Loaded(object sender, RoutedEventArgs e)
         {
             if (StyleBlack.IsChecked == true)
@@ -256,7 +265,6 @@ namespace LR4_5_TryOne
             }
 
         }
-
 
         //Сохранение состоянии для реализации undo redo
 
@@ -287,8 +295,6 @@ namespace LR4_5_TryOne
             if (CurrentSave != null)
                 LoadSave();
         }
-
-        private int i;
         private void SaveState()
         {
 
@@ -318,5 +324,16 @@ namespace LR4_5_TryOne
         {
             Redo();
         }
+
+        private void StyleGray_Checked(object sender, RoutedEventArgs e)
+        {
+            
+        }
+        private void BTN_CstmCmd_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello!");
+        }
     }
+
+    
 }

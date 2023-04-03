@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="AboutProduct" Height="450" Width="638" Background="#FF171717" MinWidth="638" MinHeight="450">
     <Grid>
+
         <Grid.RowDefinitions>
             <RowDefinition Height="375*"/>
             <RowDefinition Height="59*"/>
@@ -16,20 +17,59 @@
             <ColumnDefinition Width="363*"/>
             <ColumnDefinition Width="24*"/>
         </Grid.ColumnDefinitions>
-        <Image x:Name="ProductImage" HorizontalAlignment="Left" Height="209" Margin="10,10,0,0" VerticalAlignment="Top" Width="208"/>
+
+
         <Label x:Name="ProdNameFull" Grid.Column="1" Content="Название продукта" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White" Width="118" Height="26" FontFamily="Bahnschrift Condensed" FontSize="16"/>
         <Label x:Name="AbProd" Grid.Column="1" Content="Описание продукта" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.128,-0.867" Foreground="White" FontFamily="Bahnschrift Condensed" FontSize="16"/>
         <Label x:Name="ProdPrice" Grid.Column="1" Content="Цена продукта" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift Condensed" FontSize="16"/>
         <Label x:Name="Rating" Grid.Column="1" Content="Rating" HorizontalAlignment="Left" Margin="206,96,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift Condensed" FontSize="16"/>
         <Label x:Name="Amount" Grid.Column="1" Content="Количество" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift Condensed" FontSize="16"/>
         <Label x:Name="Discount" Grid.Column="1" Content="Скидка" HorizontalAlignment="Left" Margin="204,65,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift Condensed" FontSize="16"/>
+
         <TextBox x:Name="TB_ProdName" Grid.Column="1" HorizontalAlignment="Left" Margin="10,36,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="331" Background="#FF343434" Foreground="White" TextChanged="TB_ProdName_TextChanged"/>
         <TextBox x:Name="TB_Price" Grid.Column="1" HorizontalAlignment="Left" Margin="107,71,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97" Background="#FF343434" Foreground="White" TextChanged="TB_Price_TextChanged"/>
         <TextBox x:Name="TB_Discount" Grid.Column="1" HorizontalAlignment="Left" Margin="253,71,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="88" Background="#FF343434" Foreground="White" TextChanged="TB_Discount_TextChanged"/>
         <TextBox x:Name="TB_Amount" Grid.Column="1" HorizontalAlignment="Left" Margin="107,102,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97" Background="#FF343434" Foreground="White" TextChanged="TB_Amount_TextChanged"/>
         <TextBox x:Name="TB_Rating" Grid.Column="1" HorizontalAlignment="Left" Margin="253,102,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="88" Background="#FF343434" Foreground="White" TextChanged="TB_Rating_TextChanged"/>
         <TextBox x:Name="TB_AbProd" Grid.Column="1" HorizontalAlignment="Left" Margin="10,160,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="331" Height="81" Background="#FF343434" Foreground="White" TextChanged="TB_AbProd_TextChanged"/>
-        <TextBox x:Name="srcIMG" HorizontalAlignment="Left" Margin="10,231,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="208" Background="#FF343434" Foreground="#FFF1F1F1" TextChanged="srcIMG_TextChanged" Height="66"/>
-        <Button x:Name="Delet_Obj" Content="Delete" HorizontalAlignment="Left" Margin="10,302,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+        <Button x:Name="Delet_Obj" Content="Delete" HorizontalAlignment="Left" Margin="90,246,0,0" VerticalAlignment="Top" Click="Button_Click" Grid.Column="1"/>
+
+        <local:UC_AboutProd_ImgAndTextBx
+            x:Name="IMG_INFO"
+            Margin="10,10,13,24"
+            EditImage="ImageEDIT_Loaded"
+         />
+        <Button x:Name="Validate_btn"
+            Grid.Column="1"
+            Content="ValidateObj"
+            HorizontalAlignment="Left"
+            Margin="10,246,0,0"
+            VerticalAlignment="Top"
+            RenderTransformOrigin="2.314,1.054" Click="Validate_btn_Click"
+            />
+
+        <local:MyControlOne
+            x:Name="MCO_Name"
+            DataPrice = "{Binding ElementName = TB_Price, Path = Text}" Grid.ColumnSpan="2" Margin="0,0,361,10"
+            />
+        <Canvas Grid.Column="1" Margin="10,271,257,60" Button.Click="Canvas_Button_Click">
+            <Button
+            x:Name="BE_BTN"
+            Grid.Column="1"
+            Content="Bubbling events"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center" 
+            RenderTransformOrigin="1.283,-0.661" Canvas.Top="10"
+            />
+        </Canvas>
+        <Canvas
+            Grid.Column="1"
+            Margin="126,275,136,70"
+            PreviewMouseUp="Canvas_PreviewMouseUp"
+            >
+            <Label x:Name="LBLPMU" Content="Tunneling events" Foreground="White"/>
+        </Canvas>
+
     </Grid>
 </Window>
