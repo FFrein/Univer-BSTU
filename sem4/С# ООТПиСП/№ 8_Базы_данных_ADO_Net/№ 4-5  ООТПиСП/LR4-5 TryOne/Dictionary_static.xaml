@@ -1,0 +1,94 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--https://metanit.com/sharp/wpf/10.2.php-->
+    <Style x:Key="InputBox" TargetType="TextBox">
+        <Style.Setters>
+            <Setter Property="Control.FontFamily" Value="Bahnschrift Condensed" />
+            <Setter Property="Control.Background" Value="#343434" />
+            <Setter Property="Control.Foreground" Value="White" />
+            <Setter Property="FrameworkElement.Margin" Value="10"/>
+            <Setter Property="SelectionBrush" Value="#FF1976D2"/>
+            <Setter Property="FontSize" Value="22"/>
+        </Style.Setters>
+        
+        <Style.Triggers>
+            
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Control.Foreground" Value="#FF1976D2" />
+            </Trigger>
+
+            <EventTrigger RoutedEvent="PreviewMouseDown">
+                <EventTrigger.Actions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Height" Duration="0:0:0.1" To="38" AutoReverse="True" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger.Actions>
+            </EventTrigger>
+            
+        </Style.Triggers>
+        
+    </Style>
+    
+    <Style x:Key="ChngLng" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="FontFamily" Value="Bahnschrift Condensed"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Control.Foreground" Value="White"/>
+            <Setter Property="Control.Background" Value="#FF343434"/>
+            <Setter Property="Height" Value="27"/>
+            <Setter Property="Width" Value="37"/>
+        </Style.Setters>
+        <Style.Triggers>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsMouseOver" Value="True"/>
+                    <Condition Property="IsPressed" Value="True"/>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="Control.Background" Value="#FF343420"/>
+                    <Setter Property="Height" Value="25"/>
+                    <Setter Property="Width" Value="35"/>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="ButtonAdmin" TargetType="Button">
+        <Setter Property="Control.FontFamily" Value="Bahnschrift Condensed" />
+        <Setter Property="Control.Background" Value="#FF343434" />
+        <Setter Property="Control.Foreground" Value="White" />
+        <Setter Property="FrameworkElement.Margin" Value="10" />
+        <Setter Property="MaxHeight" Value="40"/>
+        <Setter Property="MaxWidth" Value="145"/>
+        <Setter Property="Content" Value="Admin"/>
+
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding ElementName=StyleCian, Path=IsChecked}" Value="True">
+                <Setter Property="Foreground" Value="Red" />
+            </DataTrigger>
+        </Style.Triggers>
+
+    </Style>
+
+    <Style x:Key="GrigStyle" TargetType="Grid">
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding ElementName=StyleCian, Path=IsChecked}" Value="True">
+                <Setter Property="Background" Value="#FF13654D" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ElementName=StyleBlack, Path=IsChecked}" Value="True">
+                
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ElementName=StyleGray, Path=IsChecked}" Value="True">
+                <Setter Property="Background" Value="SlateGray" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="RadioWhite" TargetType="RadioButton">
+        
+    </Style>
+
+</ResourceDictionary>

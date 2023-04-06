@@ -1,0 +1,135 @@
+.footer_bunner{
+    background: #153C3C;
+    border-radius: 8px;
+    width: 1080px;
+    margin: auto;
+    padding-bottom:16px;
+    margin-bottom: 64px;
+}
+.footer_bunner h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    /* or 133% */
+
+    letter-spacing: 1.6px;
+
+    color: #FFFFFF;
+    width: 434px;
+    padding: 64px 0 33px 64px;
+}
+
+.footer_bunner_dop_info{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 64px;
+    margin: 0 0 64px 0;
+}
+
+.footer_bunner_dop_info h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+    margin: 0 10px 0 0;
+
+
+    color: #ADC9A6;
+}
+.footer_bunner_dop_info p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.28px;
+
+    color: #DDE4E4;
+    width: 124px;
+}
+
+.items{
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+
+    padding: 160px 0 0 0;
+    text-align: center;
+}
+.items h5{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #153C3C;
+
+    background: #F3F7F2;
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    margin: 0 0 13px 0;
+
+    /*Font*/
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+.items h1{
+    text-align: center;
+    margin: auto;
+    width: 612px;
+    letter-spacing: 2.24px;
+    color: #172426;
+
+    padding: 0 0 100px 0;
+
+    /*Font*/
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1080px;
+    gap:40px;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    margin: auto;
+}
+
+/*Preview*/
+.preview{
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+}
+.preview h5{
+    display: inline-block;
+    background-color: #f2f7f2;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    /*Font*/
+    font-size: 18px;
+    line-height: 32px;
+    color: #153C3C;
+}
+.preview h1{
+    font-size: 62px;
+    line-height: 80px;
+    letter-spacing: 2.88px;
+    color: #172426;
+}
+
+.UnderImg{
+    display: block;
+    margin: auto;
+    transform: translateY(-50px);
+    padding: 0 0 59px 0;
+}

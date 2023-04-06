@@ -7,9 +7,10 @@
 #pragma comment (lib, "WS2_32.lib")
 #pragma warning(disable:4996)
 
-#define MAILSLOT_NAME L"\\\\DESKTOP-DDFE5SO\\mailslot\\Box"			// где: точка (.) - обозначает локальный компьютер;
+#define MAILSLOT_NAME L"\\\\*\\mailslot\\Box"			// где: точка (.) - обозначает локальный компьютер;
 														// mailslot - фиксированное слово;
 														// Box - имя почтового ящика
+// DESKTOP - DDFE5SO
 
 using namespace std;
 
@@ -86,7 +87,7 @@ int main()
 
 	HANDLE cH;
 	double t1, t2;
-
+	
 	try
 	{
 		// 1 блок - подсоединение клиента к почтовому ящику с помощью функции CreateFile
@@ -104,12 +105,12 @@ int main()
 
 		cout << "Я клиент :)" << endl;
 
-		char writeBuf[50] = "Hello from Client-Mailslot"; // для блока 2
+		char writeBuf[1000] = "Hhhhhhhhhhhhhhh"; // для блока 2
 		DWORD writeMsg;
 
 		t1 = clock();
 
-		for (int i = 1; i <= 1000; i++) 
+		for (int i = 1; i <= 10000; i++) 
 		{
 			if (!WriteFile(cH, writeBuf, sizeof(writeBuf), &writeMsg, NULL))
 			{

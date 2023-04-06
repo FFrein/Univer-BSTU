@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="LR4_5_TryOne.UC_AboutProd_ImgAndTextBx"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LR4_5_TryOne"
+             mc:Ignorable="d" Width="230" Height="341">
+    <UserControl.Resources>
+        <local:MyControlOne x:Name="MCO_Name" x:Key="MCO_Key"/>
+    </UserControl.Resources>
+    <Grid>
+        <Image
+            x:Name="ProductImage"
+            HorizontalAlignment="Left"
+            Height="209"
+            Margin="10,10,0,0"
+            VerticalAlignment="Top"
+            Width="208"/>
+        <TextBox
+            x:Name="srcIMG"
+            HorizontalAlignment="Center"
+            Margin="0,231,0,0"
+            TextWrapping="Wrap"
+            Text="TextBox"
+            VerticalAlignment="Top"
+            Width="208" Height="100"
+            Background="#FF343434"
+            Foreground="#FFF1F1F1"
+            TextChanged="srcIMG_TextChanged"
+            />
+    </Grid>
+</UserControl>

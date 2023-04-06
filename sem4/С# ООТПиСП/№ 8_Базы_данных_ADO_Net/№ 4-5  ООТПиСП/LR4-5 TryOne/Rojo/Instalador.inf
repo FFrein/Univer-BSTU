@@ -1,0 +1,53 @@
+CREADOR DEL CURSOR ~ Richard Hilliurn
+Base creada por: OrangeePatt
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Normal.ani
+Ayuda.ani
+TESP.ani
+Ocupado.ani
+Texto.ani
+No.ani
+Vertical.ani
+Horizontal.ani
+Diagonal NE.ani
+Diagonal NO.ani
+Mover.ani
+Boton.ani
+Precision.ani
+Escritura.ani
+Alternativo.ani
+
+[Strings]
+CUR_DIR       = "Cursors\Enforcer Hell Red by Hilliurn"
+SCHEME_NAME   = "Enforcer Hell Red"
+pointer       = "Normal.ani"
+help          = "Ayuda.ani"
+work          = "TESP.ani"
+busy          = "Ocupado.ani"
+text          = "Texto.ani"
+unavailiable  = "No.ani"
+vert          = "Vertical.ani"
+horz          = "Horizontal.ani"
+dgn1          = "Diagonal NE.ani"
+dgn2          = "Diagonal NO.ani"
+move          = "Mover.ani"
+link          = "Boton.ani"
+cross         = "Precision.ani"
+hand          = "Escritura.ani"
+alternate     = "Alternativo.ani"

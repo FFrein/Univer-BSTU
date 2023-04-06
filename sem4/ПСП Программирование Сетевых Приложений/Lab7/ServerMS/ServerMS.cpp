@@ -100,7 +100,7 @@ int main()
 			throw SetMailError("CreateMailslot: ", GetLastError());
 		}
 		
-		cout << "Почтовый ящик (MailSlot) под именем " << MAILSLOT_NAME << endl;
+		cout << "Привет, я почтовый ящик (MailSlot) под именем " << MAILSLOT_NAME << endl;
 
 		char readBuf[50]; // для блока 2
 		DWORD readMsg;
